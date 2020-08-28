@@ -25,6 +25,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AddScore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Score.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AddAmmo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LookAtMouse.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMove.cs" />
       </list>
     </option>
   </component>
@@ -60,6 +62,7 @@
       <workItem from="1598397791633" duration="1216000" />
       <workItem from="1598469794544" duration="4293000" />
       <workItem from="1598474148552" duration="44000" />
+      <workItem from="1598578012518" duration="2155000" />
     </task>
     <servers />
   </component>
