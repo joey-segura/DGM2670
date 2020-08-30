@@ -56,7 +56,7 @@
      <Compile Include="Assets\Scripts\AddAmmo.cs" />
      <Compile Include="Assets\Scripts\IntData.cs" />
      <Compile Include="Assets\Scripts\SelfDestruct.cs" />
-     <Compile Include="Assets\Scripts\shootGun.cs" />
+     <Compile Include="Assets\Scripts\SpawnWall.cs" />
      <Compile Include="Assets\Scripts\ThirdPersonMove.cs" />
      <Compile Include="Assets\Scripts\UpadateAmmo.cs" />
  <Reference Include="Cinemachine">

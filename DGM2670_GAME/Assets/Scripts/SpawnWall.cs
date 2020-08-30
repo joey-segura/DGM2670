@@ -1,24 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Experimental.Rendering;
 
-public class shootGun : MonoBehaviour
+public class SpawnWall : ThirdPersonMove
 {
     public Transform spawnPoint;
     public GameObject playerWall;
+
+
+ 
     
     void Update()
     {
         if (Input.GetButtonDown("Fire2"))
         {
-            SpawnWall();
+            BuildWall();
         }
     }
 
-    void SpawnWall()
+    void BuildWall()
     {
-        GameObject newWall =Instantiate(playerWall, spawnPoint.position, spawnPoint.rotation);
+        GameObject newWall =Instantiate(playerWall, spawnPoint.position, Quaternion.Euler(new Vector3(0,0,0)));
         Rigidbody rb = newWall.GetComponent<Rigidbody>();
         Destroy(newWall, 3.0f);
     }
