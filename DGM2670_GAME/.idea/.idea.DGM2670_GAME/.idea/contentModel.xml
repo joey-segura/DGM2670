@@ -9,6 +9,8 @@
         <e p="Scripts" t="Include">
           <e p="AddAmmo.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
+          <e p="SelfDestruct.cs" t="Include" />
+          <e p="shootGun.cs" t="Include" />
           <e p="ThirdPersonMove.cs" t="Include" />
           <e p="UpadateAmmo.cs" t="Include" />
         </e>

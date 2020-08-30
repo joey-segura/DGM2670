@@ -16,6 +16,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ThirdPersonMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddAmmo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpadateAmmo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/shootGun.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -27,6 +28,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AddAmmo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookAtMouse.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/shootGun.cs" />
       </list>
     </option>
   </component>
@@ -63,6 +65,7 @@
       <workItem from="1598469794544" duration="4293000" />
       <workItem from="1598474148552" duration="44000" />
       <workItem from="1598578012518" duration="2155000" />
+      <workItem from="1598744355814" duration="2677000" />
     </task>
     <servers />
   </component>
