@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AddAmmo.cs" t="Include" />
+          <e p="classMovement.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="SelfDestruct.cs" t="Include" />
           <e p="spawnWall.cs" t="Include" />

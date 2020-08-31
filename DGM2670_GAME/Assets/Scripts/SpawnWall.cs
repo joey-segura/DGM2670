@@ -20,7 +20,8 @@ public class SpawnWall : ThirdPersonMove
 
     void BuildWall()
     {
-        GameObject newWall =Instantiate(playerWall, spawnPoint.position, Quaternion.Euler(new Vector3(0,0,0)));
+        GameObject newWall =Instantiate(playerWall, spawnPoint.position, spawnPoint.rotation);
+        //Quaternion.Euler(new Vector3(0,0,0))
         Rigidbody rb = newWall.GetComponent<Rigidbody>();
         Destroy(newWall, 3.0f);
     }

@@ -16,6 +16,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ThirdPersonMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddAmmo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/classMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpadateAmmo.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -31,6 +32,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/shootGun.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/spawnWall.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnWall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/classMovement.cs" />
       </list>
     </option>
   </component>
@@ -70,6 +72,7 @@
       <workItem from="1598744355814" duration="2677000" />
       <workItem from="1598809787949" duration="91000" />
       <workItem from="1598809913125" duration="1665000" />
+      <workItem from="1598900879365" duration="3382000" />
     </task>
     <servers />
   </component>
