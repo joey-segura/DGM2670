@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(CharacterController))]
 public class ThirdPersonMove : MonoBehaviour
 {
     public CharacterController cntrl;
@@ -9,7 +10,7 @@ public class ThirdPersonMove : MonoBehaviour
     
     private Vector3 movement;
     public float rayLength;
-    public float currentSpeed, defaultSpeed = 3f, speedySpeed = 6f, jumpForce = 15f, gravity = 1f;
+    public float currentSpeed, defaultSpeed = 3f, speedySpeed = 6f, jumpForce = 20f, gravity = 1f;
     public int jumpCount = 1, jumpCountMax = 1;
     public bool stunned = false;
 
@@ -27,7 +28,6 @@ public class ThirdPersonMove : MonoBehaviour
         {
             movement.y = jumpForce;
             jumpCount ++;
-           
         }
 
         if (cntrl.isGrounded)
@@ -55,7 +55,8 @@ public class ThirdPersonMove : MonoBehaviour
         {
             currentSpeed = speedySpeed;
             Debug.Log("Sprinting");
-        } else
+        } 
+        else
         {
             currentSpeed = defaultSpeed;
         }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnWall : ThirdPersonMove
+public class SpawnWall : MonoBehaviour
 {
     public Transform spawnPoint;
     public GameObject playerWall;
