@@ -6,9 +6,6 @@ public class SpawnWall : ThirdPersonMove
 {
     public Transform spawnPoint;
     public GameObject playerWall;
-
-
- 
     
     void Update()
     {

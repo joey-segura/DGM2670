@@ -59,7 +59,7 @@
      <Compile Include="Assets\Scripts\SelfDestruct.cs" />
      <Compile Include="Assets\Scripts\SpawnWall.cs" />
      <Compile Include="Assets\Scripts\ThirdPersonMove.cs" />
-     <Compile Include="Assets\Scripts\UpadateAmmo.cs" />
+     <Compile Include="Assets\Scripts\UpdateAmmo.cs" />
  <Reference Include="Cinemachine">
  <HintPath>C:/Users/otejp/Documents/GIT/DGM2670/DGM2670/DGM2670_GAME/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>

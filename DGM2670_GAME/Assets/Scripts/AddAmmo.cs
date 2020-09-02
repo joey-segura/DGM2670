@@ -9,7 +9,7 @@ public class AddAmmo : MonoBehaviour
     void OnTriggerEnter(Collider col)
     {
         ammoValue.value++;
-        
+
         if (col.gameObject.name == "Player")
         {
             Destroy(this.gameObject); 
