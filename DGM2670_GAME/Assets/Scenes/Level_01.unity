@@ -1173,6 +1173,9 @@ MonoBehaviour:
   jumpCount: 1
   jumpCountMax: 1
   stunned: 0
+  jumpCD: 0
+  jumpCooldown: 1
+  timeSinceJump: 0
 --- !u!143 &1156122040
 CharacterController:
   m_ObjectHideFlags: 0

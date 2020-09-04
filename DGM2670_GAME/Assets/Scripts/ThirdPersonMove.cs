@@ -10,21 +10,16 @@ public class ThirdPersonMove : MonoBehaviour
     
     private Vector3 movement;
     public float rayLength;
-    public float currentSpeed, defaultSpeed = 3f, speedySpeed = 6f, jumpForce = 20f, gravity = 1f;
+    public float currentSpeed, defaultSpeed = 3f, speedySpeed = 7f, jumpForce = 20f, gravity = 1f;
     public int jumpCount = 1, jumpCountMax = 1;
     public bool stunned, jumpCD;
+
+    public float jumpCooldown = 1, timeSinceJump;
 
     void Start()
     {
         cam = FindObjectOfType<Camera>();
-        jumpCD = false;
         stunned = false;
-    }
-
-    private void SetJumpCD()
-    {
-        jumpCD = false;
-        Debug.Log("JumpCD Invoked");
     }
 
     void Update()
@@ -32,17 +27,17 @@ public class ThirdPersonMove : MonoBehaviour
         movement.z = Input.GetAxisRaw("Vertical")*currentSpeed;
         movement.x = Input.GetAxisRaw("Horizontal")*currentSpeed;
         
-        if (Input.GetButton("Fire1") && jumpCount < jumpCountMax && jumpCD == false)
+        timeSinceJump += Time.deltaTime;
+        
+        if (Input.GetButtonDown("Fire1") && jumpCount < jumpCountMax && timeSinceJump > jumpCooldown && cntrl.isGrounded)
         {
             movement.y = jumpForce;
             jumpCount ++;
-            jumpCD = true;
-            Invoke("SetJumpCD", 1f);
+            timeSinceJump = 0;
         }
-
+        
         if (cntrl.isGrounded)
         {
-            movement.y = 0;
             jumpCount = 0;
         }
         else
