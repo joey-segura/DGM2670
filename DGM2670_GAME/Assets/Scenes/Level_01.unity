@@ -1162,19 +1162,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 484f4c2622c12da4fb5190f26d6233c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cntrl: {fileID: 1156122040}
-  cam: {fileID: 1732555627}
+  cntrl: {fileID: 0}
+  cam: {fileID: 0}
   rayLength: 0
   currentSpeed: 0
   defaultSpeed: 3
-  speedySpeed: 6
+  speedySpeed: 7
   jumpForce: 20
   gravity: 1
+  increasedGravity: 1.75
+  decreasedGravity: 1.3
   jumpCount: 1
   jumpCountMax: 1
   stunned: 0
   jumpCD: 0
-  jumpCooldown: 1
+  jumpCooldown: 0.75
   timeSinceJump: 0
 --- !u!143 &1156122040
 CharacterController:

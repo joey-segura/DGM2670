@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,14 +11,22 @@ public class ThirdPersonMove : MonoBehaviour
     
     private Vector3 movement;
     public float rayLength;
-    public float currentSpeed, defaultSpeed = 3f, speedySpeed = 7f, jumpForce = 20f, gravity = 1f;
+
+    public float currentSpeed,
+        defaultSpeed = 3f,
+        speedySpeed = 6f,
+        jumpForce = 17f,
+        gravity = 1f,
+        increasedGravity = 1.75f,
+        decreasedGravity = 1.3f;
     public int jumpCount = 1, jumpCountMax = 1;
     public bool stunned, jumpCD;
 
-    public float jumpCooldown = 1, timeSinceJump;
+    public float jumpCooldown = 0.75f, timeSinceJump;
 
     void Start()
     {
+        cntrl = GetComponent<CharacterController>();
         cam = FindObjectOfType<Camera>();
         stunned = false;
     }
@@ -35,7 +44,7 @@ public class ThirdPersonMove : MonoBehaviour
             jumpCount ++;
             timeSinceJump = 0;
         }
-        
+
         if (cntrl.isGrounded)
         {
             jumpCount = 0;
@@ -44,6 +53,16 @@ public class ThirdPersonMove : MonoBehaviour
         {
             movement.y -= gravity;
         }
+
+        if (cntrl.velocity.y > 0)
+        {
+            gravity = decreasedGravity;
+        }
+        else if (cntrl.velocity.y < 0)
+        {
+            gravity = increasedGravity;
+        }
+        
         cntrl.Move(movement * Time.deltaTime);
         
         Ray cameraRay = cam.ScreenPointToRay(Input.mousePosition);

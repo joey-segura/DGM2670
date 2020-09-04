@@ -33,6 +33,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/classMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AddAmmo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnWall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/heavyJump.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMove.cs" />
       </list>
     </option>
@@ -80,6 +81,7 @@
       <workItem from="1599074395337" duration="3553000" />
       <workItem from="1599183160011" duration="2004000" />
       <workItem from="1599185220611" duration="2075000" />
+      <workItem from="1599239658619" duration="2180000" />
     </task>
     <servers />
   </component>
