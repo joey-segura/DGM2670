@@ -15,10 +15,10 @@ public class ThirdPersonMove : MonoBehaviour
     public float currentSpeed,
         defaultSpeed = 3f,
         speedySpeed = 6f,
-        jumpForce = 17f,
+        jumpForce = 10f,
         gravity = 1f,
-        increasedGravity = 1.75f,
-        decreasedGravity = 1.3f;
+        increasedGravity = 1f,
+        decreasedGravity = 0.5f;
     public int jumpCount = 1, jumpCountMax = 1;
     public bool stunned, jumpCD;
 
