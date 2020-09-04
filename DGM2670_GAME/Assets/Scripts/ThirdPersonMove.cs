@@ -12,22 +12,32 @@ public class ThirdPersonMove : MonoBehaviour
     public float rayLength;
     public float currentSpeed, defaultSpeed = 3f, speedySpeed = 6f, jumpForce = 20f, gravity = 1f;
     public int jumpCount = 1, jumpCountMax = 1;
-    public bool stunned = false;
+    public bool stunned, jumpCD;
 
     void Start()
     {
         cam = FindObjectOfType<Camera>();
+        jumpCD = false;
+        stunned = false;
+    }
+
+    private void SetJumpCD()
+    {
+        jumpCD = false;
+        Debug.Log("JumpCD Invoked");
     }
 
     void Update()
     {
         movement.z = Input.GetAxisRaw("Vertical")*currentSpeed;
         movement.x = Input.GetAxisRaw("Horizontal")*currentSpeed;
-
-        if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
+        
+        if (Input.GetButton("Fire1") && jumpCount < jumpCountMax && jumpCD == false)
         {
             movement.y = jumpForce;
             jumpCount ++;
+            jumpCD = true;
+            Invoke("SetJumpCD", 1f);
         }
 
         if (cntrl.isGrounded)
