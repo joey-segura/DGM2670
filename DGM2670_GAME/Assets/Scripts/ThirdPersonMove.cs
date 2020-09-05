@@ -13,7 +13,7 @@ public class ThirdPersonMove : MonoBehaviour
     public float rayLength;
 
     public float currentSpeed,
-        defaultSpeed = 3f,
+        defaultSpeed = 4f,
         speedySpeed = 6f,
         jumpForce = 10f,
         gravity = 1f,
@@ -38,7 +38,7 @@ public class ThirdPersonMove : MonoBehaviour
         
         timeSinceJump += Time.deltaTime;
         
-        if (Input.GetButtonDown("Fire1") && jumpCount < jumpCountMax && timeSinceJump > jumpCooldown && cntrl.isGrounded)
+        if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax && timeSinceJump > jumpCooldown && cntrl.isGrounded)
         {
             movement.y = jumpForce;
             jumpCount ++;
