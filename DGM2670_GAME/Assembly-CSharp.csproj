@@ -53,14 +53,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\gameManager.cs" />
      <Compile Include="Assets\Scripts\AddAmmo.cs" />
      <Compile Include="Assets\Scripts\cameraFollow.cs" />
      <Compile Include="Assets\Scripts\classMovement.cs" />
      <Compile Include="Assets\Scripts\IntData.cs" />
+     <Compile Include="Assets\Scripts\Knockout.cs" />
      <Compile Include="Assets\Scripts\SelfDestruct.cs" />
      <Compile Include="Assets\Scripts\SpawnWall.cs" />
      <Compile Include="Assets\Scripts\ThirdPersonMove.cs" />
      <Compile Include="Assets\Scripts\UpdateAmmo.cs" />
+     <Compile Include="Assets\Scripts\Vector3Data.cs" />
  <Reference Include="Cinemachine">
  <HintPath>C:/Users/otejp/Documents/GIT/DGM2670/DGM2670/DGM2670_GAME/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>

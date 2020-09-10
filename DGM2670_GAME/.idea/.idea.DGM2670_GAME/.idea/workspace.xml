@@ -12,14 +12,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnWall.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnWall.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/cameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ThirdPersonMove.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddAmmo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Knockout.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ThirdPersonMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddAmmo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../DGM1610/Project1/Assets/Scripts/gameScripts/movement3.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/classMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/classMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../OTE/ronnyGame/unity3d-ronnyGame/Assets/Scripts/cameraRotation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/gameManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -35,8 +38,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AddAmmo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnWall.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/heavyJump.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/cameraFollow.cs" />
+        <option value="$PROJECT_DIR$/Assets/knockout.cs" />
+        <option value="$PROJECT_DIR$/Assets/gameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" />
       </list>
     </option>
   </component>
@@ -85,6 +91,7 @@
       <workItem from="1599185220611" duration="2075000" />
       <workItem from="1599239658619" duration="3534000" />
       <workItem from="1599265859223" duration="2115000" />
+      <workItem from="1599680472426" duration="2161000" />
     </task>
     <servers />
   </component>

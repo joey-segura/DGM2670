@@ -36,6 +36,8 @@ public class ThirdPersonMove : MonoBehaviour
         movement.z = Input.GetAxisRaw("Vertical")*currentSpeed;
         movement.x = Input.GetAxisRaw("Horizontal")*currentSpeed;
         
+        //Jumping and jump cooldown.
+        
         timeSinceJump += Time.deltaTime;
         
         if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax && timeSinceJump > jumpCooldown && cntrl.isGrounded)
@@ -65,6 +67,8 @@ public class ThirdPersonMove : MonoBehaviour
         
         cntrl.Move(movement * Time.deltaTime);
         
+        //Look at mouse position.
+        
         Ray cameraRay = cam.ScreenPointToRay(Input.mousePosition);
         Plane groundPlane = new Plane(Vector3.up, Vector3.zero);
 
@@ -75,14 +79,21 @@ public class ThirdPersonMove : MonoBehaviour
             transform.LookAt(focusPoint);
         }
 
+        //Toggle Sprinting.
+        
         if (Input.GetKey(KeyCode.LeftShift))
         {
             currentSpeed = speedySpeed;
-            Debug.Log("Sprinting");
         } 
         else
         {
             currentSpeed = defaultSpeed;
+        }
+
+        if (cntrl.center.y < -15f)
+        {
+            Debug.Log("FALLING");
+            FindObjectOfType<gameManager>().Respawn();
         }
     }
 }
