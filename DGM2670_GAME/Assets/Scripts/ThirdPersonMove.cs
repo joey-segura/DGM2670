@@ -28,11 +28,14 @@ public class ThirdPersonMove : MonoBehaviour
     {
         cntrl = GetComponent<CharacterController>();
         cam = FindObjectOfType<Camera>();
+        
         stunned = false;
     }
 
     void Update()
     {
+        
+        
         movement.z = Input.GetAxisRaw("Vertical")*currentSpeed;
         movement.x = Input.GetAxisRaw("Horizontal")*currentSpeed;
         
@@ -90,9 +93,8 @@ public class ThirdPersonMove : MonoBehaviour
             currentSpeed = defaultSpeed;
         }
 
-        if (cntrl.center.y < -15f)
+        if (movement.y < -20f)
         {
-            Debug.Log("FALLING");
             FindObjectOfType<gameManager>().Respawn();
         }
     }
