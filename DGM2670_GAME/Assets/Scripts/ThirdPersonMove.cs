@@ -12,6 +12,9 @@ public class ThirdPersonMove : MonoBehaviour
     private Vector3 movement;
     public float rayLength;
 
+    public Health healthBar;
+    public int maxHP = 100, currentHP;
+
     public float currentSpeed,
         defaultSpeed = 4f,
         speedySpeed = 6f,
@@ -28,13 +31,45 @@ public class ThirdPersonMove : MonoBehaviour
     {
         cntrl = GetComponent<CharacterController>();
         cam = FindObjectOfType<Camera>();
+
+        currentHP = maxHP;
+        healthBar.SetHealth(maxHP);
         
         stunned = false;
     }
 
+    //Trigger damage.
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.name == "HP_Down")
+        {
+            TakeDamage(20);
+            Destroy(other.gameObject);
+        }
+        if (other.gameObject.name == "HP_Up")
+        {
+            TakeDamage(-20);
+            Destroy(other.gameObject);
+        }
+    }
+    
+    //Deal Damage.
+
+    void TakeDamage(int damage)
+    {
+        currentHP -= damage;
+        healthBar.SetHealth(currentHP);
+    }
+
     void Update()
     {
+        //Player death.
         
+        if (currentHP <= 0)
+        {
+            FindObjectOfType<gameManager>().Respawn();
+        }
         
         movement.z = Input.GetAxisRaw("Vertical")*currentSpeed;
         movement.x = Input.GetAxisRaw("Horizontal")*currentSpeed;

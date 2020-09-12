@@ -11,6 +11,7 @@
           <e p="AddAmmo.cs" t="Include" />
           <e p="cameraFollow.cs" t="Include" />
           <e p="classMovement.cs" t="Include" />
+          <e p="Health.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="knockout.cs" t="Include" />
           <e p="SelfDestruct.cs" t="Include" />

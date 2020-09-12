@@ -7,6 +7,11 @@ public class gameManager : MonoBehaviour
   private bool respawnComplete = false;
   public float restartDelay = 1f;
   
+  void KnockOut()
+  {
+   
+  }
+  
   public void Respawn ()
   {
     if (respawnComplete == false)
@@ -15,10 +20,5 @@ public class gameManager : MonoBehaviour
       Debug.Log("Try Again");
       Invoke("Restart", restartDelay);
     }
-  }
-
-  void Restart()
-  {
-    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
   }
 }
