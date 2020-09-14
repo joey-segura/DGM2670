@@ -6,5 +6,4 @@ using UnityEngine;
 public class Vector3Data : MonoBehaviour
 {
     public Vector3 value;
-    
 }

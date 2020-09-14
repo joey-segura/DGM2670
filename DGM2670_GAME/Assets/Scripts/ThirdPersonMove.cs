@@ -128,7 +128,9 @@ public class ThirdPersonMove : MonoBehaviour
             currentSpeed = defaultSpeed;
         }
 
-        if (movement.y < -20f)
+        //Exit map respawn.
+        
+        if (movement.y < -40)
         {
             FindObjectOfType<gameManager>().Respawn();
         }

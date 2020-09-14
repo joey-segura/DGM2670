@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &719861440142224092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3426292523551534605}
+  m_Layer: 0
+  m_Name: FirePont
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3426292523551534605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719861440142224092}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.647, y: 0.4, z: 1.291}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3352645865390570245}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3352645864693417742
 GameObject:
   m_ObjectHideFlags: 0
@@ -166,7 +196,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8d9761f26362be24ab4b541948ccf719, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -257,7 +287,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8d9761f26362be24ab4b541948ccf719, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -324,6 +354,7 @@ Transform:
   - {fileID: 3352645864693417743}
   - {fileID: 3352645865009206528}
   - {fileID: 3352645865254680635}
+  - {fileID: 3426292523551534605}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -357,8 +388,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 121bbc2d358fadd40ba2e443e35728c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 3352645864693417743}
+  wallSpawn: {fileID: 3352645864693417743}
+  bulletSpawn: {fileID: 3426292523551534605}
   playerWall: {fileID: 1376972836031588071, guid: 802a51eb3d7c6054eb51bcf6a03cfa57,
+    type: 3}
+  playerBullet: {fileID: 221821497497953297, guid: c6c35cdb33725ac4a9ec7c17956128ef,
     type: 3}
 --- !u!114 &3352645865390570243
 MonoBehaviour:
@@ -375,6 +409,9 @@ MonoBehaviour:
   cntrl: {fileID: 0}
   cam: {fileID: 0}
   rayLength: 0
+  healthBar: {fileID: 0}
+  maxHP: 100
+  currentHP: 0
   currentSpeed: 0
   defaultSpeed: 4
   speedySpeed: 6
@@ -398,7 +435,7 @@ Animator:
   m_GameObject: {fileID: 3352645865390570244}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5b75b135515c229489f8d66fabd01850, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
