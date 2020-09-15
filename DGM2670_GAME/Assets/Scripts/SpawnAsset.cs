@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 
-public class SpawnWall : MonoBehaviour
+public class SpawnAsset : MonoBehaviour
 {
     public Transform wallSpawn, bulletSpawn;
     public GameObject playerWall, playerBullet;
@@ -11,7 +11,7 @@ public class SpawnWall : MonoBehaviour
 
     void Start()
     {
-
+       
     }
     void Update()
     {
@@ -29,16 +29,14 @@ public class SpawnWall : MonoBehaviour
 
     void ShootBullet()
     {
-        GameObject newBullet = Instantiate(playerBullet, bulletSpawn.position, bulletSpawn.rotation);
-        playerBullet = newBullet;
-        Rigidbody bulletRB = playerBullet.GetComponent<Rigidbody>();
-        bulletRB.AddForce(transform.forward * bulletForce);
+        GameObject newBullet = Instantiate(playerBullet, bulletSpawn.position, bulletSpawn.rotation) as GameObject;
+        newBullet.AddComponent<Rigidbody>();
+        newBullet.GetComponent<Rigidbody>().AddForce(transform.forward * bulletForce);
     }
 
     void BuildWall()
     {
         GameObject newWall = Instantiate(playerWall, wallSpawn.position, wallSpawn.rotation);
-        Rigidbody wallRB = playerWall.GetComponent<Rigidbody>();
         Destroy(newWall, 3.0f);
     }
 }
