@@ -83,7 +83,7 @@ public class PlayerControls : MonoBehaviour
 
         if (Physics.Raycast(gunRay, out hit))
         {
-            Debug.Log("Hitting");
+            
         }
        
         
