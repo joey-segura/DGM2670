@@ -5,14 +5,16 @@ using UnityEngine;
 
 public class SpawnAsset : MonoBehaviour
 {
+    
     public Transform wallSpawn, bulletSpawn;
     public GameObject playerWall, playerBullet;
-    private float bulletForce = 1000f;
+    private float bulletForce = 2000f;
 
     void Start()
     {
-       
+        
     }
+    
     void Update()
     {
         if (Input.GetButtonDown("Fire1"))
@@ -24,13 +26,13 @@ public class SpawnAsset : MonoBehaviour
         {
             BuildWall();
         }
-     
     }
 
     void ShootBullet()
     {
         GameObject newBullet = Instantiate(playerBullet, bulletSpawn.position, bulletSpawn.rotation) as GameObject;
         newBullet.AddComponent<Rigidbody>();
+        newBullet.AddComponent<LineRenderer>();
         newBullet.GetComponent<Rigidbody>().AddForce(transform.forward * bulletForce);
     }
 

@@ -3,12 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(LineRenderer))]
 [RequireComponent(typeof(CharacterController))]
-public class ThirdPersonMove : MonoBehaviour
+public class PlayerControls : MonoBehaviour
 {
     public CharacterController cntrl;
     public Camera cam;
-    
+    private GameObject playerGun;
+
     private Vector3 movement;
     public float rayLength;
 
@@ -27,8 +29,12 @@ public class ThirdPersonMove : MonoBehaviour
 
     public float jumpCooldown = 0.75f, timeSinceJump;
 
+    private LineRenderer laserSight;
+
     void Start()
     {
+        laserSight = GetComponent<LineRenderer>();
+        playerGun = GameObject.Find("Gun_GFX");
         cntrl = GetComponent<CharacterController>();
         cam = FindObjectOfType<Camera>();
 
@@ -64,6 +70,23 @@ public class ThirdPersonMove : MonoBehaviour
 
     void Update()
     {
+        //Laser sight.
+        
+        Vector3 origin = playerGun.transform.position;
+        Vector3 direction = transform.forward;
+        
+        Debug.DrawRay(origin, direction * 10f, Color.red);
+
+        RaycastHit hit;
+        Ray gunRay = new Ray(origin, direction);
+        laserSight.SetPosition(0, origin);
+
+        if (Physics.Raycast(gunRay, out hit))
+        {
+            Debug.Log("Hitting");
+        }
+       
+        
         //Player death.
         
         if (currentHP <= 0)

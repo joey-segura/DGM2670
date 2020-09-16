@@ -5,7 +5,7 @@ using UnityEngine;
 public class BulletExplosion : MonoBehaviour
 {
     public GameObject explosionLocation;
-    public float power = 10f, radius = 5f, liftForce = 1f;
+    public float power = 20f, radius = 5f, liftForce = 1f;
     
     void OnTriggerEnter(Collider col)
     {

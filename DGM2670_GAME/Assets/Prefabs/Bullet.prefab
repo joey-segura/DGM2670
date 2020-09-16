@@ -91,7 +91,7 @@ Transform:
   m_GameObject: {fileID: 6422489845551610597}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.75, y: 1.5, z: 0.75}
+  m_LocalScale: {x: 0.75, y: 1, z: 0.75}
   m_Children: []
   m_Father: {fileID: 7175146581918549396}
   m_RootOrder: 1
@@ -167,7 +167,7 @@ GameObject:
   - component: {fileID: 1925983380842029058}
   - component: {fileID: 3995036397172594737}
   - component: {fileID: 1113656155995030659}
-  - component: {fileID: 8214524819360271216}
+  - component: {fileID: 2777715790561423759}
   m_Layer: 0
   m_Name: Explosive Tip
   m_TagString: Untagged
@@ -183,7 +183,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9199146525775707072}
   m_LocalRotation: {x: 0.70710677, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -0, z: 1.126}
+  m_LocalPosition: {x: 0, y: -0, z: 0.625}
   m_LocalScale: {x: 0.74, y: 0.74, z: 0.74}
   m_Children: []
   m_Father: {fileID: 7175146581918549396}
@@ -248,7 +248,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8214524819360271216
+--- !u!114 &2777715790561423759
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -260,7 +260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 926848166da5b6d4bb6061e146743bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionLocation: {fileID: 9199146525775707072}
-  power: 10
+  explosionLocation: {fileID: 5719755926698401437}
+  power: 20
   radius: 5
   liftForce: 1
