@@ -815,6 +815,16 @@ PrefabInstance:
       propertyPath: locator
       value: 
       objectReference: {fileID: 838693912}
+    - target: {fileID: 3352645865390570243, guid: 90876fc1d5b906946a200e596296d20e,
+        type: 3}
+      propertyPath: jumpForce
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3352645865390570243, guid: 90876fc1d5b906946a200e596296d20e,
+        type: 3}
+      propertyPath: jumpCooldown
+      value: 0.85
+      objectReference: {fileID: 0}
     - target: {fileID: 3352645865390570240, guid: 90876fc1d5b906946a200e596296d20e,
         type: 3}
       propertyPath: spawnPoint
@@ -7361,7 +7371,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8d9761f26362be24ab4b541948ccf719, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

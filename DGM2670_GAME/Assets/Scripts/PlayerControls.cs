@@ -21,14 +21,14 @@ public class PlayerControls : MonoBehaviour
     public float currentSpeed,
         defaultSpeed = 4f,
         speedySpeed = 6f,
-        jumpForce = 10f,
+        jumpForce = 11f,
         gravity = 1f,
         increasedGravity = 1f,
         decreasedGravity = 0.5f;
     public int jumpCount = 1, jumpCountMax = 1;
     public bool stunned, jumpCD;
 
-    public float jumpCooldown = 0.75f, timeSinceJump;
+    public float jumpCooldown = 0.85f, timeSinceJump;
 
     private LineRenderer laserSight;
 
