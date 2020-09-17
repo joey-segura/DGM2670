@@ -63,6 +63,7 @@
      <Compile Include="Assets\Scripts\Knockout.cs" />
      <Compile Include="Assets\Scripts\Lerping.cs" />
      <Compile Include="Assets\Scripts\LookAt.cs" />
+     <Compile Include="Assets\Scripts\MouseLocator.cs" />
      <Compile Include="Assets\Scripts\PlayerControls.cs" />
      <Compile Include="Assets\Scripts\SelfDestruct.cs" />
      <Compile Include="Assets\Scripts\SpawnAsset.cs" />

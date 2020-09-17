@@ -17,6 +17,7 @@
           <e p="knockout.cs" t="Include" />
           <e p="Lerping.cs" t="Include" />
           <e p="LookAt.cs" t="Include" />
+          <e p="MouseLocator.cs" t="Include" />
           <e p="PlayerControls.cs" t="Include" />
           <e p="SelfDestruct.cs" t="Include" />
           <e p="SpawnAsset.cs" t="Include" />

@@ -10,6 +10,7 @@ public class PlayerControls : MonoBehaviour
     public CharacterController cntrl;
     public Camera cam;
     private GameObject playerGun;
+    public GameObject locator;
 
     private Vector3 movement;
     public float rayLength;
@@ -68,6 +69,11 @@ public class PlayerControls : MonoBehaviour
         healthBar.SetHealth(currentHP);
     }
 
+    public void SetLocatorPosition(Vector3 rayHit)
+    {
+        locator.transform.position = rayHit;
+    }
+
     void Update()
     {
         //Laser sight.
@@ -83,10 +89,11 @@ public class PlayerControls : MonoBehaviour
 
         if (Physics.Raycast(gunRay, out hit))
         {
-            
+            laserSight.SetPosition(1, hit.point);
+            SetLocatorPosition(hit.point);
         }
-       
-        
+
+
         //Player death.
         
         if (currentHP <= 0)

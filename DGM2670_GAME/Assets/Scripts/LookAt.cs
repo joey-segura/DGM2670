@@ -4,18 +4,14 @@ using UnityEngine;
 
 public class LookAt : MonoBehaviour
 {
-    private Camera cam;
     public Transform pointObj;
 
-    private void Start()
+    void Update()
     {
-        cam = Camera.main;
+        transform.LookAt(pointObj);
     }
-    void OnMouseDown()
-    {
-        if (Physics.Raycast(cam.ScreenPointToRay(Input.mousePosition), out var hit, 100))
-        {
-            pointObj.position = hit.point;
-        }
-    }
-}
+}    
+    
+    
+
+

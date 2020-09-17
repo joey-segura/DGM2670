@@ -25,6 +25,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddAmmo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lerping.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseLocator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../OTE/ronnyGame/unity3d-ronnyGame/Assets/Scripts/cameraRotation.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -52,9 +53,10 @@
         <option value="$PROJECT_DIR$/Assets/BulletExplosion.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnAsset.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerControls.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Lerping.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MouseLocator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerControls.cs" />
       </list>
     </option>
   </component>
@@ -112,6 +114,7 @@
       <workItem from="1600128981011" duration="1509000" />
       <workItem from="1600208913146" duration="6629000" />
       <workItem from="1600283727943" duration="3508000" />
+      <workItem from="1600302470108" duration="4541000" />
     </task>
     <servers />
   </component>
