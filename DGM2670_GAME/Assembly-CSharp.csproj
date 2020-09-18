@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Scripts\IntData.cs" />
      <Compile Include="Assets\Scripts\Knockout.cs" />
+     <Compile Include="Assets\Scripts\Laser.cs" />
      <Compile Include="Assets\Scripts\Lerping.cs" />
      <Compile Include="Assets\Scripts\LookAt.cs" />
      <Compile Include="Assets\Scripts\MouseLocator.cs" />
