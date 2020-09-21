@@ -55,8 +55,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnAsset.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Lerping.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MouseLocator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MouseLocator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerControls.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Laser.cs" />
       </list>
@@ -119,6 +119,7 @@
       <workItem from="1600302470108" duration="4541000" />
       <workItem from="1600310699877" duration="211000" />
       <workItem from="1600449147519" duration="992000" />
+      <workItem from="1600700543925" duration="5746000" />
     </task>
     <servers />
   </component>

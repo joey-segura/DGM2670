@@ -24,7 +24,6 @@ public class MouseLocator : MonoBehaviour
             {
                 clickPosition = hit.point;
             }
-            Debug.Log(clickPosition);
         }
     }
 }

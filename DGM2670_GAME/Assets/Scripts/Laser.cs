@@ -1,37 +1,50 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
 using UnityEngine;
 
 public class Laser : MonoBehaviour
 {
 
     public Vector3 playerLocation;
+    public bool playerVisible;
     private LineRenderer laser;
+    
     
     void Start()
     {
-        playerLocation = GameObject.Find("Player").transform.position;
         laser = GetComponent<LineRenderer>();
     }
-    
+
     void Update()
     {
-        Vector3 origin = this.gameObject.transform.position;
-        Vector3 direction = transform.forward;
+        if (Input.GetButtonDown("Fire2"))
+        {
+            playerVisible = false;
+        }
+        if (Input.GetButtonDown("Fire1"))
+        {
+            playerVisible = true;
+        }
         
-        Debug.DrawRay(origin, direction * 10f, Color.red);
+        
+        
+        playerLocation = GameObject.Find("Player").transform.position;
+        Debug.Log(playerLocation);
+
+        if (playerVisible == true)
+        {
+            transform.LookAt(playerLocation);
+        }
+        
 
         RaycastHit hit;
-        Ray gunRay = new Ray(origin, direction);
-        laser.SetPosition(0, origin);
+        Ray gunRay = new Ray(transform.position, transform.forward);
+        laser.SetPosition(0, transform.position);
 
         if (Physics.Raycast(gunRay, out hit))
         {
-            hit.point = playerLocation;
-            Debug.Log(hit.point);
             laser.SetPosition(1, hit.point);
         }
-        
-        transform.LookAt(hit.point);
     }
 }

@@ -77,22 +77,16 @@ public class PlayerControls : MonoBehaviour
     void Update()
     {
         //Laser sight.
-        
-        Vector3 origin = playerGun.transform.position;
-        Vector3 direction = transform.forward;
-        
-        Debug.DrawRay(origin, direction * 10f, Color.red);
 
         RaycastHit hit;
-        Ray gunRay = new Ray(origin, direction);
-        laserSight.SetPosition(0, origin);
+        Ray gunRay = new Ray(playerGun.transform.position, transform.forward);
+        laserSight.SetPosition(0, playerGun.transform.position);
 
         if (Physics.Raycast(gunRay, out hit))
         {
             laserSight.SetPosition(1, hit.point);
             SetLocatorPosition(hit.point);
         }
-
 
         //Player death.
         
