@@ -5,7 +5,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(LineRenderer))]
 [RequireComponent(typeof(CharacterController))]
-public class PlayerControls : MonoBehaviour
+public class CharControlBehaviour : MonoBehaviour
 {
     public CharacterController cntrl;
     public Camera cam;
@@ -15,7 +15,7 @@ public class PlayerControls : MonoBehaviour
     private Vector3 movement;
     public float rayLength;
 
-    public Health healthBar;
+    public HealthBehaviour healthBar;
     public int maxHP = 100, currentHP;
 
     public float currentSpeed,
@@ -92,7 +92,7 @@ public class PlayerControls : MonoBehaviour
         
         if (currentHP <= 0)
         {
-            FindObjectOfType<gameManager>().Respawn();
+            FindObjectOfType<GameManager>().Respawn();
         }
         
         movement.z = Input.GetAxisRaw("Vertical")*currentSpeed;
@@ -156,7 +156,7 @@ public class PlayerControls : MonoBehaviour
         
         if (movement.y < -40)
         {
-            FindObjectOfType<gameManager>().Respawn();
+            FindObjectOfType<GameManager>().Respawn();
         }
     }
 }

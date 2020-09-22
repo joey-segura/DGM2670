@@ -53,22 +53,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\AddAmmo.cs" />
-     <Compile Include="Assets\Scripts\BulletExplosion.cs" />
-     <Compile Include="Assets\Scripts\cameraFollow.cs" />
-     <Compile Include="Assets\Scripts\classMovement.cs" />
-     <Compile Include="Assets\Scripts\gameManager.cs" />
-     <Compile Include="Assets\Scripts\Health.cs" />
+     <Compile Include="Assets\Scripts\AddValueBehaviour.cs" />
+     <Compile Include="Assets\Scripts\BulletBehaviour.cs" />
+     <Compile Include="Assets\Scripts\CamFollowBehaviour.cs" />
+     <Compile Include="Assets\Scripts\CharControlBehaviour.cs" />
+     <Compile Include="Assets\Scripts\ExplosionBehaviour.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\HealthBehaviour.cs" />
      <Compile Include="Assets\Scripts\IntData.cs" />
-     <Compile Include="Assets\Scripts\Knockout.cs" />
-     <Compile Include="Assets\Scripts\Laser.cs" />
-     <Compile Include="Assets\Scripts\Lerping.cs" />
-     <Compile Include="Assets\Scripts\LookAt.cs" />
-     <Compile Include="Assets\Scripts\MouseLocator.cs" />
-     <Compile Include="Assets\Scripts\PlayerControls.cs" />
-     <Compile Include="Assets\Scripts\SelfDestruct.cs" />
-     <Compile Include="Assets\Scripts\SpawnAsset.cs" />
-     <Compile Include="Assets\Scripts\UpdateAmmo.cs" />
+     <Compile Include="Assets\Scripts\LaserBehaviour.cs" />
+     <Compile Include="Assets\Scripts\LerpBehaviour.cs" />
+     <Compile Include="Assets\Scripts\LookBehaviour.cs" />
+     <Compile Include="Assets\Scripts\MouseLocateBehaviour.cs" />
+     <Compile Include="Assets\Scripts\MovementBehaviour.cs" />
+     <Compile Include="Assets\Scripts\SpawnAssetBehaviour.cs" />
+     <Compile Include="Assets\Scripts\UpdateTextBehaviour.cs" />
      <Compile Include="Assets\Scripts\Vector3Data.cs" />
  <Reference Include="Cinemachine">
  <HintPath>C:/Users/otejp/Documents/GIT/DGM2670/DGM2670/DGM2670_GAME/Library/ScriptAssemblies/Cinemachine.dll</HintPath>

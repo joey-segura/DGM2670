@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UpdateAmmo : MonoBehaviour
+public class UpdateTextBehaviour : MonoBehaviour
 {
         public IntData ammoValue;
         private Text text;

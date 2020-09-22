@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AddAmmo : MonoBehaviour
+public class AddValueBehaviour : MonoBehaviour
 {
     public IntData ammoValue;
     

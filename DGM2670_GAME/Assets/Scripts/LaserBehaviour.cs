@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Cinemachine;
 using UnityEngine;
 
-public class Laser : MonoBehaviour
+public class LaserBehaviour : MonoBehaviour
 {
 
     public Vector3 playerLocation;

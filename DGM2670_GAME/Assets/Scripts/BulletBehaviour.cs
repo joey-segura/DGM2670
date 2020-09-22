@@ -1,16 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using Cinemachine;
 using UnityEngine;
 
-public class Knockout : MonoBehaviour
+public class BulletBehaviour : MonoBehaviour
 {
-    public GameObject bomb;
-    public float power = 10f, radius = 5f, liftForce = 1f;
-
+    public GameObject explosionLocation;
+    public float power = 20f, radius = 5f, liftForce = 1f;
+    
     void OnTriggerEnter(Collider col)
     {
-        Vector3 explosionPosition = bomb.transform.position;
+        Vector3 explosionPosition = explosionLocation.transform.position;
         Collider[] collider = Physics.OverlapSphere(explosionPosition, radius);
         
         foreach (Collider hit in collider) 
@@ -24,4 +23,3 @@ public class Knockout : MonoBehaviour
         Destroy(this.gameObject);
     }
 }
-

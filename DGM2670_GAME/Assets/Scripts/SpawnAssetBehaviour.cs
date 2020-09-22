@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 
-public class SpawnAsset : MonoBehaviour
+public class SpawnAssetBehaviour : MonoBehaviour
 {
     
     public Transform wallSpawn, bulletSpawn;

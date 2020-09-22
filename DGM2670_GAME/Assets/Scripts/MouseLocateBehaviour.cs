@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MouseLocator : MonoBehaviour
+public class MouseLocateBehaviour : MonoBehaviour
 {
     public Camera cam;
     

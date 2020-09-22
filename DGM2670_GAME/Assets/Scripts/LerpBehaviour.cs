@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.Collections.LowLevel.Unsafe;
 using UnityEngine;
 
-public class Lerping : MonoBehaviour
+public class LerpBehaviour : MonoBehaviour
 {
     public Vector3 vOne, vTwo;
     public float newLocation;

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class cameraFollow : MonoBehaviour
+public class CamFollowBehaviour : MonoBehaviour
 {
     public Transform playerLocation;
     public float followSpeed = 0.1f;
