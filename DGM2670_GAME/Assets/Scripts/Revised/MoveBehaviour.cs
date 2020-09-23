@@ -2,91 +2,82 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(LineRenderer))]
-[RequireComponent(typeof(CharacterController))]
+
 public class MoveBehaviour : MonoBehaviour
 {
-    public CharacterController cntrl;
+   
     public Camera cam;
+    private Rigidbody playerRB;
     private GameObject playerGun;
-    public GameObject locator;
 
-    private Vector3 movement;
-    public float rayLength;
+    public Vector3 inputVector;
 
     public float currentSpeed,
         defaultSpeed = 4f,
         speedySpeed = 6f,
-        jumpForce = 11f,
-        gravity = 1f,
+        jumpForce = 20f,
+        jumpCooldown = 0.85f,
+        timeSinceJump,
+        distToGround,
+        gravity = 10f,
         increasedGravity = 1f,
         decreasedGravity = 0.5f;
     public int jumpCount = 1, jumpCountMax = 1;
-
-
-    public float jumpCooldown = 0.85f, timeSinceJump;
     
-
     void Start()
     {
-        cntrl = GetComponent<CharacterController>();
+        playerRB = GetComponent<Rigidbody>();
         cam = FindObjectOfType<Camera>();
+
+        distToGround = GetComponent<Collider>().bounds.extents.y;
+    }
+
+    void FixedUpdate()
+    {
+        playerRB.velocity = inputVector;
     }
     
     void Update()
     {
 
-        movement.z = Input.GetAxisRaw("Vertical")*currentSpeed;
-        movement.x = Input.GetAxisRaw("Horizontal")*currentSpeed;
+        inputVector = new Vector3(Input.GetAxis("Horizontal") * currentSpeed, -gravity,Input.GetAxis("Vertical") * currentSpeed);
+        transform.LookAt(transform.position + new Vector3(inputVector.x, 0, inputVector.z));
         
-        //Jumping and jump cooldown.
-        
+        //Handle jump.
+
         timeSinceJump += Time.deltaTime;
         
-        if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax && timeSinceJump > jumpCooldown && cntrl.isGrounded)
+        if (Input.GetButtonDown("Jump") && timeSinceJump > jumpCooldown)
         {
-            movement.y = jumpForce;
-            jumpCount ++;
+            inputVector.y = jumpForce;
             timeSinceJump = 0;
         }
 
-        if (cntrl.isGrounded)
+        //if (inputVector.y > 0)
         {
-            jumpCount = 0;
+            //gravity = decreasedGravity;
         }
-        else
+        //else if (inputVector.y < 0)
         {
-            movement.y -= gravity;
+            //gravity = increasedGravity;
         }
-
-        if (cntrl.velocity.y > 0)
-        {
-            gravity = decreasedGravity;
-        }
-        else if (cntrl.velocity.y < 0)
-        {
-            gravity = increasedGravity;
-        }
-        
-        cntrl.Move(movement * Time.deltaTime);
-        
 
         //Toggle Sprinting.
         
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            currentSpeed = speedySpeed;
-        } 
-        else
-        {
-            currentSpeed = defaultSpeed;
-        }
+         if (Input.GetKey(KeyCode.LeftShift))
+         {
+          currentSpeed = speedySpeed;
+         } 
+         else
+         { 
+          currentSpeed = defaultSpeed;
+         }
 
         //Exit map respawn.
         
-        if (movement.y < 3)
-        {
-            FindObjectOfType<GameManager>().Respawn();
-        }
+         //if (location.y < 3)
+        { 
+         FindObjectOfType<GameManager>().Respawn();
+        } 
     }
 }
