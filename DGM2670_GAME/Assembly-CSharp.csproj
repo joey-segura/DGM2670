@@ -53,23 +53,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\AddValueBehaviour.cs" />
-     <Compile Include="Assets\Scripts\BulletBehaviour.cs" />
-     <Compile Include="Assets\Scripts\CamFollowBehaviour.cs" />
-     <Compile Include="Assets\Scripts\CharControlBehaviour.cs" />
-     <Compile Include="Assets\Scripts\ExplosionBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\AddValueBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\BulletBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\CamFollowBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\CharControlBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\ExplosionBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\HealthBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\LaserBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\LerpBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\LookAtBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\LookBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\MouseLocateBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\MovementBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\SpawnAssetBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\UpdateTextBehaviour.cs" />
+     <Compile Include="Assets\Scripts\DataSO\DebugData.cs" />
+     <Compile Include="Assets\Scripts\DataSO\IntData.cs" />
+     <Compile Include="Assets\Scripts\DataSO\Vector3Data.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
-     <Compile Include="Assets\Scripts\HealthBehaviour.cs" />
-     <Compile Include="Assets\Scripts\IntData.cs" />
-     <Compile Include="Assets\Scripts\LaserBehaviour.cs" />
-     <Compile Include="Assets\Scripts\LerpBehaviour.cs" />
-     <Compile Include="Assets\Scripts\LookBehaviour.cs" />
-     <Compile Include="Assets\Scripts\MouseLocateBehaviour.cs" />
-     <Compile Include="Assets\Scripts\MovementBehaviour.cs" />
+     <Compile Include="Assets\Scripts\MouseEventBehaviour.cs" />
      <Compile Include="Assets\Scripts\Revised\MoveBehaviour.cs" />
-     <Compile Include="Assets\Scripts\SpawnAssetBehaviour.cs" />
-     <Compile Include="Assets\Scripts\UpdateTextBehaviour.cs" />
-     <Compile Include="Assets\Scripts\Vector3Data.cs" />
  <Reference Include="Cinemachine">
  <HintPath>C:/Users/otejp/Documents/GIT/DGM2670/DGM2670/DGM2670_GAME/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>

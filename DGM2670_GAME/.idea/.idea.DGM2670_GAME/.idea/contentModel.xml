@@ -7,25 +7,32 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
-          <e p="AddValueBehaviour.cs" t="Include" />
-          <e p="BulletBehaviour.cs" t="Include" />
-          <e p="CamFollowBehaviour.cs" t="Include" />
-          <e p="CharControlBehaviour.cs" t="Include" />
-          <e p="ExplosionBehaviour.cs" t="Include" />
+          <e p="Behaviours" t="Include">
+            <e p="AddValueBehaviour.cs" t="Include" />
+            <e p="BulletBehaviour.cs" t="Include" />
+            <e p="CamFollowBehaviour.cs" t="Include" />
+            <e p="CharControlBehaviour.cs" t="Include" />
+            <e p="ExplosionBehaviour.cs" t="Include" />
+            <e p="HealthBehaviour.cs" t="Include" />
+            <e p="LaserBehaviour.cs" t="Include" />
+            <e p="LerpBehaviour.cs" t="Include" />
+            <e p="LookAtBehaviour.cs" t="Include" />
+            <e p="LookBehaviour.cs" t="Include" />
+            <e p="MouseLocateBehaviour.cs" t="Include" />
+            <e p="MovementBehaviour.cs" t="Include" />
+            <e p="SpawnAssetBehaviour.cs" t="Include" />
+            <e p="UpdateTextBehaviour.cs" t="Include" />
+          </e>
+          <e p="DataSO" t="Include">
+            <e p="DebugData.cs" t="Include" />
+            <e p="IntData.cs" t="Include" />
+            <e p="Vector3Data.cs" t="Include" />
+          </e>
           <e p="gameManager.cs" t="Include" />
-          <e p="HealthBehaviour.cs" t="Include" />
-          <e p="IntData.cs" t="Include" />
-          <e p="LaserBehaviour.cs" t="Include" />
-          <e p="LerpBehaviour.cs" t="Include" />
-          <e p="LookBehaviour.cs" t="Include" />
-          <e p="MouseLocateBehaviour.cs" t="Include" />
-          <e p="MovementBehaviour.cs" t="Include" />
+          <e p="MouseEventBehaviour.cs" t="Include" />
           <e p="Revised" t="Include">
             <e p="MoveBehaviour.cs" t="Include" />
           </e>
-          <e p="SpawnAssetBehaviour.cs" t="Include" />
-          <e p="UpdateTextBehaviour.cs" t="Include" />
-          <e p="Vector3Data.cs" t="Include" />
         </e>
       </e>
       <e p="DGM2670_GAME.sln" t="IncludeFlat" />
