@@ -66,6 +66,7 @@
      <Compile Include="Assets\Scripts\LookBehaviour.cs" />
      <Compile Include="Assets\Scripts\MouseLocateBehaviour.cs" />
      <Compile Include="Assets\Scripts\MovementBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Revised\MoveBehaviour.cs" />
      <Compile Include="Assets\Scripts\SpawnAssetBehaviour.cs" />
      <Compile Include="Assets\Scripts\UpdateTextBehaviour.cs" />
      <Compile Include="Assets\Scripts\Vector3Data.cs" />

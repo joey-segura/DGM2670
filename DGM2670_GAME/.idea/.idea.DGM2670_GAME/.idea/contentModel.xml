@@ -20,7 +20,9 @@
           <e p="LookBehaviour.cs" t="Include" />
           <e p="MouseLocateBehaviour.cs" t="Include" />
           <e p="MovementBehaviour.cs" t="Include" />
-          <e p="SelfDestruct.cs" t="Include" />
+          <e p="Revised" t="Include">
+            <e p="MoveBehaviour.cs" t="Include" />
+          </e>
           <e p="SpawnAssetBehaviour.cs" t="Include" />
           <e p="UpdateTextBehaviour.cs" t="Include" />
           <e p="Vector3Data.cs" t="Include" />

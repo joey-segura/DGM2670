@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovementBehaviour : MonoBehaviour
+public partial class MovementBehaviour : MonoBehaviour
 {
     public CharacterController control; 
     private Vector3 movement;
