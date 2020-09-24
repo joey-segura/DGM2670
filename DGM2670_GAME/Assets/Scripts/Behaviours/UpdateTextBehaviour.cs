@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class UpdateTextBehaviour : MonoBehaviour
 {
-        public IntData ammoValue;
+        public IntData dataValue;
         private Text text;
 
         private void Start()
@@ -15,6 +15,6 @@ public class UpdateTextBehaviour : MonoBehaviour
         
         private void Update()
         {
-                text.text = ammoValue.value.ToString();
+                text.text = dataValue.value.ToString();
         }
 }

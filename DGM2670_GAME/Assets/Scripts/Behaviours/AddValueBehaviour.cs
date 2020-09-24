@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class AddValueBehaviour : MonoBehaviour
 {
-    public IntData ammoValue;
+    public IntData dataValue;
     
     void OnTriggerEnter(Collider col)
     {
-        ammoValue.value++;
+        dataValue.value++;
 
         if (col.gameObject.name == "Player")
         {
