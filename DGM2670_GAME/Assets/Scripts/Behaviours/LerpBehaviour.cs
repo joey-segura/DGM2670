@@ -5,13 +5,17 @@ using UnityEngine;
 
 public class LerpBehaviour : MonoBehaviour
 {
-    public Vector3 vOne, vTwo;
-    public float newLocation;
+
+    public Transform startPos, endPos;
+
+    public float travelDist = 5f;
+
     
     void Update()
     {
-        var direction = Vector3.Lerp(vOne, vTwo, newLocation);
-        newLocation += 0.1f * Time.deltaTime;
-        transform.Translate(direction);
+        {
+            float distTravelled = Mathf.PingPong(Time.time, travelDist);
+            transform.position = Vector3.Lerp(startPos.position, endPos.position, distTravelled / travelDist);
+        }
     }
 }
