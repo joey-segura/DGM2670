@@ -15,7 +15,6 @@
             <e p="ExplosionBehaviour.cs" t="Include" />
             <e p="HealthBehaviour.cs" t="Include" />
             <e p="LaserBehaviour.cs" t="Include" />
-            <e p="LerpBehaviour.cs" t="Include" />
             <e p="LookAtBehaviour.cs" t="Include" />
             <e p="LookBehaviour.cs" t="Include" />
             <e p="MouseLocateBehaviour.cs" t="Include" />
@@ -31,6 +30,8 @@
           <e p="gameManager.cs" t="Include" />
           <e p="MouseEventBehaviour.cs" t="Include" />
           <e p="Revised" t="Include">
+            <e p="GroundCheckBehaviour.cs" t="Include" />
+            <e p="LerpBehaviour.cs" t="Include" />
             <e p="MoveBehaviour.cs" t="Include" />
           </e>
         </e>

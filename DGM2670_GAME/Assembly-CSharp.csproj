@@ -60,7 +60,6 @@
      <Compile Include="Assets\Scripts\Behaviours\ExplosionBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\HealthBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\LaserBehaviour.cs" />
-     <Compile Include="Assets\Scripts\Behaviours\LerpBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\LookAtBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\LookBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\MouseLocateBehaviour.cs" />
@@ -72,6 +71,8 @@
      <Compile Include="Assets\Scripts\DataSO\Vector3Data.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\MouseEventBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Revised\GroundCheckBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Revised\LerpBehaviour.cs" />
      <Compile Include="Assets\Scripts\Revised\MoveBehaviour.cs" />
  <Reference Include="Cinemachine">
  <HintPath>C:/Users/otejp/Documents/GIT/DGM2670/DGM2670/DGM2670_GAME/Library/ScriptAssemblies/Cinemachine.dll</HintPath>

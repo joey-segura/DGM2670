@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class MoveBehaviour : MonoBehaviour
+public class MoveBehaviour : GroundCheckBehaviour
 {
    
     public Camera cam;
@@ -15,26 +15,39 @@ public class MoveBehaviour : MonoBehaviour
     public float currentSpeed,
         defaultSpeed = 4f,
         speedySpeed = 6f,
-        jumpForce = 20f,
-        jumpCooldown = 0.85f,
+        jumpForce = 100f,
+        jumpCooldown = 0.1f,
         timeSinceJump,
-        distToGround,
-        gravity = 10f,
+        gravity,
         increasedGravity = 1f,
         decreasedGravity = 0.5f;
     public int jumpCount = 1, jumpCountMax = 1;
-    
+
     void Start()
     {
         playerRB = GetComponent<Rigidbody>();
         cam = FindObjectOfType<Camera>();
-
-        distToGround = GetComponent<Collider>().bounds.extents.y;
     }
 
     void FixedUpdate()
     {
         playerRB.velocity = inputVector;
+        
+        
+        if (IsGrounded == true)
+        {
+            gravity = 1f;
+        }
+        else
+        {
+            gravity = 10f;
+        }
+    }
+
+    void ChangeGroundedStatus()
+    {
+        IsGrounded = false;
+        Debug.Log("Invoked");
     }
     
     void Update()
@@ -45,14 +58,18 @@ public class MoveBehaviour : MonoBehaviour
         
         //Handle jump.
 
-        timeSinceJump += Time.deltaTime;
+        //timeSinceJump += Time.deltaTime;
         
-        if (Input.GetButtonDown("Jump") && timeSinceJump > jumpCooldown)
+        //&& timeSinceJump > jumpCooldown
+        if (Input.GetButtonDown("Jump") && IsGrounded == true)
         {
             inputVector.y = jumpForce;
-            timeSinceJump = 0;
+            Invoke("ChangeGroundedStatus", 0.1f);
+            //IsGrounded = false;
+            //timeSinceJump = 0;
         }
 
+        
         //if (inputVector.y > 0)
         {
             //gravity = decreasedGravity;
@@ -76,8 +93,8 @@ public class MoveBehaviour : MonoBehaviour
         //Exit map respawn.
         
          //if (location.y < 3)
-        { 
-         FindObjectOfType<GameManager>().Respawn();
-        } 
+        //{ 
+         //FindObjectOfType<GameManager>().Respawn();
+        //} 
     }
 }
