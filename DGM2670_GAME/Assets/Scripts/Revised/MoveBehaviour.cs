@@ -18,9 +18,9 @@ public class MoveBehaviour : GroundCheckBehaviour
         jumpForce = 100f,
         jumpCooldown = 0.1f,
         timeSinceJump,
-        gravity,
-        increasedGravity = 1f,
-        decreasedGravity = 0.5f;
+        gravityMultiplier = 1f,
+        gravityUp = 1.5f,
+        gravityDown = 0.5f;
     public int jumpCount = 1, jumpCountMax = 1;
 
     void Start()
@@ -28,47 +28,52 @@ public class MoveBehaviour : GroundCheckBehaviour
         playerRB = GetComponent<Rigidbody>();
         cam = FindObjectOfType<Camera>();
     }
-
-    void FixedUpdate()
-    {
-        playerRB.velocity = inputVector;
-        
-        
-        if (IsGrounded == true)
-        {
-            gravity = 1f;
-        }
-        else
-        {
-            gravity = 10f;
-        }
-    }
-
+    
     void ChangeGroundedStatus()
     {
         IsGrounded = false;
         Debug.Log("Invoked");
     }
-    
+
+    void FixedUpdate()
+    {
+        playerRB.AddForce(inputVector);
+    }
     void Update()
     {
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
+        { 
+           //ONLY ALLOW PLAYER CONTROL WHILE GROUNDED
+        }
 
-        inputVector = new Vector3(Input.GetAxis("Horizontal") * currentSpeed, -gravity,Input.GetAxis("Vertical") * currentSpeed);
+
+        inputVector = new Vector3(Input.GetAxis("Horizontal") * currentSpeed, Physics.gravity.y + gravityMultiplier,Input.GetAxis("Vertical") * currentSpeed);
         transform.LookAt(transform.position + new Vector3(inputVector.x, 0, inputVector.z));
+        
+        
         
         //Handle jump.
 
         //timeSinceJump += Time.deltaTime;
         
         //&& timeSinceJump > jumpCooldown
+        
+        
+        
         if (Input.GetButtonDown("Jump") && IsGrounded == true)
         {
             inputVector.y = jumpForce;
             Invoke("ChangeGroundedStatus", 0.1f);
+            
+            
+            
+            
             //IsGrounded = false;
             //timeSinceJump = 0;
         }
 
+        
+        
         
         //if (inputVector.y > 0)
         {
@@ -81,6 +86,9 @@ public class MoveBehaviour : GroundCheckBehaviour
 
         //Toggle Sprinting.
         
+        
+        
+        
          if (Input.GetKey(KeyCode.LeftShift))
          {
           currentSpeed = speedySpeed;
@@ -90,6 +98,9 @@ public class MoveBehaviour : GroundCheckBehaviour
           currentSpeed = defaultSpeed;
          }
 
+         
+         
+         
         //Exit map respawn.
         
          //if (location.y < 3)
