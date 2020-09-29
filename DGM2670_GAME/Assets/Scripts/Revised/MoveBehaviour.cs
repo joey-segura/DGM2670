@@ -5,8 +5,6 @@ using UnityEngine;
 
 public class MoveBehaviour : GroundCheckBehaviour
 {
-   
-    public Camera cam;
     private Rigidbody playerRB;
     private GameObject playerGun;
 
@@ -26,7 +24,6 @@ public class MoveBehaviour : GroundCheckBehaviour
     void Start()
     {
         playerRB = GetComponent<Rigidbody>();
-        cam = FindObjectOfType<Camera>();
     }
     
     void ChangeGroundedStatus()
@@ -41,14 +38,11 @@ public class MoveBehaviour : GroundCheckBehaviour
     }
     void Update()
     {
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
-        { 
-           //ONLY ALLOW PLAYER CONTROL WHILE GROUNDED
-        }
-
-
         inputVector = new Vector3(Input.GetAxis("Horizontal") * currentSpeed, Physics.gravity.y + gravityMultiplier,Input.GetAxis("Vertical") * currentSpeed);
         transform.LookAt(transform.position + new Vector3(inputVector.x, 0, inputVector.z));
+
+
+      
         
         
         
@@ -83,29 +77,16 @@ public class MoveBehaviour : GroundCheckBehaviour
         {
             //gravity = increasedGravity;
         }
+        
 
-        //Toggle Sprinting.
-        
-        
-        
-        
-         if (Input.GetKey(KeyCode.LeftShift))
-         {
+
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
           currentSpeed = speedySpeed;
-         } 
-         else
-         { 
+        } 
+        else
+        { 
           currentSpeed = defaultSpeed;
-         }
-
-         
-         
-         
-        //Exit map respawn.
-        
-         //if (location.y < 3)
-        //{ 
-         //FindObjectOfType<GameManager>().Respawn();
-        //} 
+        }
     }
 }

@@ -65,15 +65,19 @@
      <Compile Include="Assets\Scripts\Behaviours\MouseLocateBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\MovementBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\SpawnAssetBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\TriggerEventBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\UpdateTextBehaviour.cs" />
      <Compile Include="Assets\Scripts\DataSO\DebugData.cs" />
+     <Compile Include="Assets\Scripts\DataSO\FloatData.cs" />
      <Compile Include="Assets\Scripts\DataSO\IntData.cs" />
      <Compile Include="Assets\Scripts\DataSO\Vector3Data.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\MonoEventsBehaviour.cs" />
      <Compile Include="Assets\Scripts\MouseEventBehaviour.cs" />
      <Compile Include="Assets\Scripts\Revised\GroundCheckBehaviour.cs" />
      <Compile Include="Assets\Scripts\Revised\LerpBehaviour.cs" />
      <Compile Include="Assets\Scripts\Revised\MoveBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Revised\PlayerMoveBehaviour.cs" />
  <Reference Include="Cinemachine">
  <HintPath>C:/Users/otejp/Documents/GIT/DGM2670/DGM2670/DGM2670_GAME/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>

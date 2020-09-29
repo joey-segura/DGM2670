@@ -20,19 +20,23 @@
             <e p="MouseLocateBehaviour.cs" t="Include" />
             <e p="MovementBehaviour.cs" t="Include" />
             <e p="SpawnAssetBehaviour.cs" t="Include" />
+            <e p="TriggerEventBehaviour.cs" t="Include" />
             <e p="UpdateTextBehaviour.cs" t="Include" />
           </e>
           <e p="DataSO" t="Include">
             <e p="DebugData.cs" t="Include" />
+            <e p="FloatData.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />
           </e>
           <e p="gameManager.cs" t="Include" />
+          <e p="MonoEventsBehaviour.cs" t="Include" />
           <e p="MouseEventBehaviour.cs" t="Include" />
           <e p="Revised" t="Include">
             <e p="GroundCheckBehaviour.cs" t="Include" />
             <e p="LerpBehaviour.cs" t="Include" />
             <e p="MoveBehaviour.cs" t="Include" />
+            <e p="PlayerMoveBehaviour.cs" t="Include" />
           </e>
         </e>
       </e>
