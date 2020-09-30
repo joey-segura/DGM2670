@@ -71,6 +71,7 @@
      <Compile Include="Assets\Scripts\DataSO\FloatData.cs" />
      <Compile Include="Assets\Scripts\DataSO\IntData.cs" />
      <Compile Include="Assets\Scripts\DataSO\Vector3Data.cs" />
+     <Compile Include="Assets\Scripts\Final\AT_PlayerMoveBehaviour.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\MonoEventsBehaviour.cs" />
      <Compile Include="Assets\Scripts\MouseEventBehaviour.cs" />

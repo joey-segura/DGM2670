@@ -8,6 +8,7 @@ public class PlayerMoveBehaviour : MonoBehaviour
     private Vector3 newPosition;
 
     public float moveSpeed = 5f;
+    public float jumpForce = 100f;
     public float lookSpeed = 100f;
     
     
@@ -36,8 +37,15 @@ public class PlayerMoveBehaviour : MonoBehaviour
         {
             newPosition += (Vector3.left * moveSpeed * Time.deltaTime);
         }
+        
+        
+        
+        if (Input.GetButtonDown("Jump"))
+        {
+            playerRB.AddForce(0, 300, 0);
+        }
+
             
         playerRB.MovePosition(newPosition);
-        transform.rotation = Quaternion.LookRotation(Vector3.forward, Vector3.up);
     }
 }

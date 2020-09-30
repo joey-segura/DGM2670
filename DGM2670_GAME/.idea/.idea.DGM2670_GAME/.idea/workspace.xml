@@ -12,6 +12,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataSO/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataSO/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../DGM1610/Project1/Assets/Scripts/gameScripts/movement3.cs" root0="SKIP_HIGHLIGHTING" />
@@ -19,6 +20,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/ExplosionBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Revised/PlayerMoveBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/CharControlBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/CamFollowBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseEventBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoEventsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -35,8 +37,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Score.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LookAtMouse.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/shootGun.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/spawnWall.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/classMovement.cs" />
@@ -86,6 +86,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/ExplosionBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Revised/MoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Revised/PlayerMoveBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Revised/VelocityMoveBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -158,6 +160,7 @@
       <workItem from="1600990629757" duration="3496000" />
       <workItem from="1601320566058" duration="10992000" />
       <workItem from="1601429179982" duration="1668000" />
+      <workItem from="1601493510259" duration="4219000" />
     </task>
     <servers />
   </component>
