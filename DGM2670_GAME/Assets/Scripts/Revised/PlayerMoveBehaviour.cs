@@ -7,7 +7,8 @@ public class PlayerMoveBehaviour : MonoBehaviour
     private Rigidbody playerRB;
     private Vector3 newPosition;
 
-    public float lookSpeed = 10f;
+    public float moveSpeed = 5f;
+    public float lookSpeed = 100f;
     
     
     
@@ -22,21 +23,21 @@ public class PlayerMoveBehaviour : MonoBehaviour
         
         if (Input.GetKey(KeyCode.W))
         {
-            newPosition += (Vector3.forward * Time.deltaTime);
+            newPosition += (Vector3.forward * moveSpeed * Time.deltaTime);
         }else if (Input.GetKey(KeyCode.S))
         {
-            newPosition += (Vector3.back * Time.deltaTime);
+            newPosition += (Vector3.back * moveSpeed * Time.deltaTime);
         }
         
         if (Input.GetKey(KeyCode.D))
         {
-            newPosition += (Vector3.right * Time.deltaTime);
+            newPosition += (Vector3.right * moveSpeed * Time.deltaTime);
         }else if (Input.GetKey(KeyCode.A))
         {
-            newPosition += (Vector3.left * Time.deltaTime);
+            newPosition += (Vector3.left * moveSpeed * Time.deltaTime);
         }
             
         playerRB.MovePosition(newPosition);
-        transform.LookAt(transform.position + new Vector3(newPosition.x * lookSpeed, 0, newPosition.z * lookSpeed));
+        transform.rotation = Quaternion.LookRotation(Vector3.forward, Vector3.up);
     }
 }
