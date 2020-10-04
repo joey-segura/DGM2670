@@ -35,6 +35,7 @@
           <e p="gameManager.cs" t="Include" />
           <e p="MonoEventsBehaviour.cs" t="Include" />
           <e p="MouseEventBehaviour.cs" t="Include" />
+          <e p="RBInteractBehaviour.cs" t="Include" />
           <e p="Revised" t="Include">
             <e p="GroundCheckBehaviour.cs" t="Include" />
             <e p="LerpBehaviour.cs" t="Include" />

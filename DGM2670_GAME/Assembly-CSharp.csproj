@@ -75,6 +75,7 @@
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\MonoEventsBehaviour.cs" />
      <Compile Include="Assets\Scripts\MouseEventBehaviour.cs" />
+     <Compile Include="Assets\Scripts\RBInteractBehaviour.cs" />
      <Compile Include="Assets\Scripts\Revised\GroundCheckBehaviour.cs" />
      <Compile Include="Assets\Scripts\Revised\LerpBehaviour.cs" />
      <Compile Include="Assets\Scripts\Revised\MoveBehaviour.cs" />

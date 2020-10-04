@@ -30,6 +30,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/TriggerEventBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../OTE/ronnyGame/unity3d-ronnyGame/Assets/Scripts/cameraRotation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataSO/DebugData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RBInteractBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Revised/MoveBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataSO/Vector3Data.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Revised/LerpBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -37,7 +38,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/shootGun.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/spawnWall.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/classMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AddAmmo.cs" />
@@ -88,6 +88,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Revised/PlayerMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Revised/VelocityMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RBInteractBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -161,6 +162,7 @@
       <workItem from="1601320566058" duration="10992000" />
       <workItem from="1601429179982" duration="1668000" />
       <workItem from="1601493510259" duration="4219000" />
+      <workItem from="1601783641831" duration="396000" />
     </task>
     <servers />
   </component>
