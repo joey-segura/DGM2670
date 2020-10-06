@@ -12,6 +12,7 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
 
     private Vector3 movement;
     public float rayLength;
+   
     
     public float currentSpeed,
         defaultSpeed = 4f,
@@ -43,21 +44,35 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
         
         timeSinceJump += Time.deltaTime;
         
-        if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax && timeSinceJump > jumpCooldown && cntrl.isGrounded)
-        {
-            movement.y = jumpForce;
-            jumpCount ++;
-            timeSinceJump = 0;
-        }
-
+        
         if (cntrl.isGrounded)
         {
             jumpCount = 0;
         }
         else
         {
+            movement.x = cntrl.velocity.x;
             movement.y -= gravity;
+            movement.z = cntrl.velocity.z;
         }
+        
+        
+        if (Input.GetButtonDown("Jump") && jumpCount < 1 && timeSinceJump > jumpCooldown && cntrl.isGrounded)
+        {
+            movement.y = jumpForce;
+            jumpCount ++;
+            timeSinceJump = 0;
+        }
+        else if (Input.GetButtonDown("Jump") && jumpCount < 2 && cntrl.isGrounded == false)
+        {
+            Vector3 diveDir = new Vector3(transform.forward.x, transform.forward.y, transform.forward.z);
+            movement = diveDir * currentSpeed * 2f;
+            jumpCount ++;
+        }
+
+      
+        
+       
 
         if (cntrl.velocity.y > 0)
         {
@@ -72,19 +87,6 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
         
         transform.LookAt(transform.position + new Vector3(movement.x, 0, movement.z));
         
-        //Player look at mouse position.
-        
-        //Ray cameraRay = cam.ScreenPointToRay(Input.mousePosition);
-        //Plane groundPlane = new Plane(Vector3.up, Vector3.zero);
-
-        //if (groundPlane.Raycast(cameraRay, out rayLength))
-        //{
-            //Vector3 focusPoint = cameraRay.GetPoint(rayLength);
-            //Debug.DrawLine(cameraRay.origin, focusPoint, Color.red);
-            //transform.LookAt(focusPoint);
-        //}
-
-        //Toggle player sprinting.
         
         if (Input.GetKey(KeyCode.LeftShift))
         {
