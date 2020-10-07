@@ -8,12 +8,9 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
 
 {
     public CharacterController cntrl;
-    public Camera cam;
 
     private Vector3 movement;
-    public float rayLength;
-   
-    
+
     public float currentSpeed,
         defaultSpeed = 4f,
         speedySpeed = 6f,
@@ -24,29 +21,25 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
     public int jumpCount = 1, jumpCountMax = 1;
 
     public float jumpCooldown = 0.85f, timeSinceJump;
+    public float rotateSmoothing = 0.1f;
 
     private LineRenderer laserSight;
 
     void Start()
     {
         cntrl = GetComponent<CharacterController>();
-        cam = FindObjectOfType<Camera>();
     }
     
     void Update()
     {
-        
-       
-       
         //Player movement.
              
         movement.z = Input.GetAxisRaw("Vertical")*currentSpeed;
         movement.x = Input.GetAxisRaw("Horizontal")*currentSpeed;
 
-        //Jumping and jump cooldown.
+        //Jumping, dive, and jump cooldown.
         
         timeSinceJump += Time.deltaTime;
-        
         
         if (cntrl.isGrounded)
         {
@@ -60,7 +53,6 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
             movement.z = cntrl.velocity.z;
         }
         
-        
         if (Input.GetButtonDown("Jump") && jumpCount < 1 && timeSinceJump > jumpCooldown && cntrl.isGrounded)
         {
             movement.y = jumpForce;
@@ -69,15 +61,11 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
         }
         else if (Input.GetButtonDown("Jump") && jumpCount < 2 && cntrl.isGrounded == false)
         {
-            Vector3 diveDir = new Vector3(transform.forward.x, transform.forward.y, transform.forward.z);
-            movement = diveDir * currentSpeed * 2.5f;
+            Vector3 diveDir = new Vector3(transform.forward.x, transform.forward.y + 0.5f, transform.forward.z);
+            movement = diveDir * currentSpeed * 2f;
             transform.Rotate(90.0f,0f, 0f, relativeTo: Space.Self);
             jumpCount ++;
         }
-
-      
-        
-       
 
         if (cntrl.velocity.y > 0)
         {
@@ -90,8 +78,9 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
         
         cntrl.Move(movement * Time.deltaTime);
 
+        //Sprinting.
 
-        if (Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKey(KeyCode.LeftShift) && cntrl.isGrounded)
         {
             currentSpeed = speedySpeed;
         } 
