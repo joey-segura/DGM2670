@@ -34,8 +34,8 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
     {
         //Player movement.
              
-        movement.z = Input.GetAxisRaw("Vertical")*currentSpeed;
-        movement.x = Input.GetAxisRaw("Horizontal")*currentSpeed;
+        movement.z = Input.GetAxis("Vertical") * currentSpeed;
+        movement.x = Input.GetAxis("Horizontal") * currentSpeed;
 
         //Jumping, dive, and jump cooldown.
         
@@ -44,6 +44,8 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
         if (cntrl.isGrounded)
         {
             transform.LookAt(transform.position + new Vector3(movement.x, 0, movement.z));
+            
+            
             jumpCount = 0;
         }
         else
