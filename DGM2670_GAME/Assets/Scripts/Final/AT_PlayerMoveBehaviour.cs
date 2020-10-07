@@ -35,6 +35,9 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
     
     void Update()
     {
+        
+       
+       
         //Player movement.
              
         movement.z = Input.GetAxisRaw("Vertical")*currentSpeed;
@@ -47,6 +50,7 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
         
         if (cntrl.isGrounded)
         {
+            transform.LookAt(transform.position + new Vector3(movement.x, 0, movement.z));
             jumpCount = 0;
         }
         else
@@ -66,7 +70,8 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
         else if (Input.GetButtonDown("Jump") && jumpCount < 2 && cntrl.isGrounded == false)
         {
             Vector3 diveDir = new Vector3(transform.forward.x, transform.forward.y, transform.forward.z);
-            movement = diveDir * currentSpeed * 2f;
+            movement = diveDir * currentSpeed * 2.5f;
+            transform.Rotate(90.0f,0f, 0f, relativeTo: Space.Self);
             jumpCount ++;
         }
 
@@ -84,10 +89,8 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
         }
         
         cntrl.Move(movement * Time.deltaTime);
-        
-        transform.LookAt(transform.position + new Vector3(movement.x, 0, movement.z));
-        
-        
+
+
         if (Input.GetKey(KeyCode.LeftShift))
         {
             currentSpeed = speedySpeed;
