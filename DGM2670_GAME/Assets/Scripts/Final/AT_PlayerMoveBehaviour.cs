@@ -34,8 +34,8 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
     {
         //Player movement.
              
-        movement.z = Input.GetAxis("Vertical") * currentSpeed;
-        movement.x = Input.GetAxis("Horizontal") * currentSpeed;
+        movement.z = Input.GetAxisRaw("Vertical") * currentSpeed;
+        movement.x = Input.GetAxisRaw("Horizontal") * currentSpeed;
 
         //Jumping, dive, and jump cooldown.
         

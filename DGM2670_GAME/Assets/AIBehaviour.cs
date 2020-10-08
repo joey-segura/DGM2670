@@ -10,7 +10,7 @@ public class AIBehaviour : MonoBehaviour
 
     private NavMeshAgent agent;
 
-    public Transform player;
+    public GameObject playerLocation;
 
     public bool canNavigate;
     
@@ -23,6 +23,7 @@ public class AIBehaviour : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        playerLocation = GameObject.Find("Humanoid_01");
         wfs = new WaitForSeconds(holdTime);
     }
     
@@ -33,7 +34,7 @@ public class AIBehaviour : MonoBehaviour
         while (canNavigate)
         {
             yield return wffu;
-            agent.destination = player.position;
+            agent.destination = playerLocation.transform.position;
         }
     }
     

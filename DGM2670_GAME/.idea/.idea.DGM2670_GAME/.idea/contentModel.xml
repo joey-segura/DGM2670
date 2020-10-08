@@ -31,6 +31,7 @@
             <e p="Vector3Data.cs" t="Include" />
           </e>
           <e p="Final" t="Include">
+            <e p="AT_CameraBehaviour.cs" t="Include" />
             <e p="AT_PlayerMoveBehaviour.cs" t="Include" />
           </e>
           <e p="gameManager.cs" t="Include" />

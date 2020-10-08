@@ -32,6 +32,7 @@
     <setting file="file://$PROJECT_DIR$/../../../OTE/ronnyGame/unity3d-ronnyGame/Assets/Scripts/cameraRotation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataSO/DebugData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RBInteractBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Final/AT_CameraBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Revised/MoveBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataSO/Vector3Data.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Revised/LerpBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -39,7 +40,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/classMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AddAmmo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/heavyJump.cs" />
         <option value="$PROJECT_DIR$/Assets/knockout.cs" />
@@ -88,8 +88,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Revised/PlayerMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Revised/VelocityMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RBInteractBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/AIBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_CameraBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -171,7 +172,8 @@
       <workItem from="1602030750612" duration="2304000" />
       <workItem from="1602087083683" duration="1486000" />
       <workItem from="1602093242674" duration="700000" />
-      <workItem from="1602099713185" duration="1398000" />
+      <workItem from="1602099713185" duration="2233000" />
+      <workItem from="1602117446290" duration="2584000" />
     </task>
     <servers />
   </component>
