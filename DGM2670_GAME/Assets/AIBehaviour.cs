@@ -27,25 +27,11 @@ public class AIBehaviour : MonoBehaviour
         wfs = new WaitForSeconds(holdTime);
     }
     
-    private IEnumerator Navigate()
-    {
-        canNavigate = true;
-
-        while (canNavigate)
-        {
-            yield return wffu;
-            agent.destination = playerLocation.transform.position;
-        }
-    }
+    //Add patrol points so the crab won't charge again until he has reached the most recent point that was dropped. (Point drops ontriggerenter.)
     
     private void OnTriggerEnter(Collider other)
     {
-        canNavigate = false;
-        StartCoroutine(Navigate());
-    }
-    private void OnTriggerExit(Collider other)
-    {
-        canNavigate = false;
-        agent.destination = this.transform.position;
+        agent.destination = playerLocation.transform.position;
+        agent.speed = 2f;
     }
 }
