@@ -89,8 +89,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Revised/VelocityMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RBInteractBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/AIBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_CameraBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/AIBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -175,7 +175,7 @@
       <workItem from="1602099713185" duration="2233000" />
       <workItem from="1602117446290" duration="2584000" />
       <workItem from="1602210059422" duration="516000" />
-      <workItem from="1602530493504" duration="259000" />
+      <workItem from="1602530493504" duration="2327000" />
     </task>
     <servers />
   </component>

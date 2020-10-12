@@ -841,8 +841,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerLocation: {fileID: 0}
-  canNavigate: 0
-  holdTime: 1
+  chargeCooldown: 2
+  timeSinceCharge: 0
+  isCharging: 0
 --- !u!195 &329082257
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1721,6 +1722,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraFocus: {fileID: 0}
   followSpeed: 0.1
+  cameraFOV: 0
 --- !u!1 &1205251682
 GameObject:
   m_ObjectHideFlags: 0
