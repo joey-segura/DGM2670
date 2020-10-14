@@ -13,29 +13,29 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
 
     public float currentSpeed,
         defaultSpeed = 4f,
-        speedySpeed = 6f,
+        speedySpeed = 8f,
         jumpForce = 11f,
         gravity = 1f,
         increasedGravity = 1f,
         decreasedGravity = 0.5f;
     public int jumpCount = 1, jumpCountMax = 1;
-
     public float jumpCooldown = 0.85f, timeSinceJump;
-    public float rotateSmoothing = 0.1f;
-
+    public float remainingSprint, sprintMax = 10f, sprintMin = 1f;
+    
     private LineRenderer laserSight;
 
     void Start()
     {
         cntrl = GetComponent<CharacterController>();
+        remainingSprint = sprintMax;
     }
     
     void Update()
     {
         //Player movement.
-             
-        movement.z = Input.GetAxisRaw("Vertical") * currentSpeed;
-        movement.x = Input.GetAxisRaw("Horizontal") * currentSpeed;
+        
+        movement.z = Input.GetAxis("Vertical") * currentSpeed;
+        movement.x = Input.GetAxis("Horizontal") * currentSpeed;
 
         //Jumping, dive, and jump cooldown.
         
@@ -44,8 +44,7 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
         if (cntrl.isGrounded)
         {
             transform.LookAt(transform.position + new Vector3(movement.x, 0, movement.z));
-            
-            
+
             jumpCount = 0;
         }
         else
@@ -82,13 +81,16 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
 
         //Sprinting.
 
-        if (Input.GetKey(KeyCode.LeftShift) && cntrl.isGrounded)
+        Debug.Log(remainingSprint);
+        if (Input.GetKey(KeyCode.LeftShift) && remainingSprint > sprintMin && cntrl.isGrounded)
         {
             currentSpeed = speedySpeed;
+            remainingSprint -= 0.1f;
         } 
         else
         {
             currentSpeed = defaultSpeed;
+            remainingSprint += 0.1f;
         }
     }
 }

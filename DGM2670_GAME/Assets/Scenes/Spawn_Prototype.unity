@@ -1037,7 +1037,7 @@ MonoBehaviour:
   cntrl: {fileID: 0}
   currentSpeed: 0
   defaultSpeed: 4
-  speedySpeed: 6
+  speedySpeed: 8
   jumpForce: 11
   gravity: 1
   increasedGravity: 1
@@ -1046,7 +1046,9 @@ MonoBehaviour:
   jumpCountMax: 1
   jumpCooldown: 0.85
   timeSinceJump: 0
-  rotateSmoothing: 0.1
+  remainingSprint: 0
+  sprintMax: 10
+  sprintMin: 0.1
 --- !u!143 &654715655
 CharacterController:
   m_ObjectHideFlags: 0
