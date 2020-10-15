@@ -44,11 +44,12 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
         if (cntrl.isGrounded)
         {
             transform.LookAt(transform.position + new Vector3(movement.x, 0, movement.z));
-
             jumpCount = 0;
         }
         else
         {
+            currentSpeed = defaultSpeed;
+            
             movement.x = cntrl.velocity.x;
             movement.y -= gravity;
             movement.z = cntrl.velocity.z;
