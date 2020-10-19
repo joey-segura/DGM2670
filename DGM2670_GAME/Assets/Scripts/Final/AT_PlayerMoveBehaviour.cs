@@ -81,8 +81,7 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
         cntrl.Move(movement * Time.deltaTime);
 
         //Sprinting.
-
-        Debug.Log(remainingSprint);
+        
         if (Input.GetKey(KeyCode.LeftShift) && remainingSprint > sprintMin && cntrl.isGrounded)
         {
             currentSpeed = speedySpeed;
