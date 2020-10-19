@@ -34,6 +34,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Revised/PlayerMoveBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoEventsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TimerCountdownBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/UpdateTextBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/TriggerEventBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/SpawnAssetBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -45,7 +46,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/gameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnWall.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/BulletExplosion.cs" />
@@ -86,16 +86,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Revised/MoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Revised/PlayerMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Revised/VelocityMoveBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RBInteractBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AIPatrol.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AIPatrol.cs" />
         <option value="$PROJECT_DIR$/Assets/AIBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_CameraBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlatformInteract.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/TriggerEventBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataSO/StringListData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_TubeSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RBInteractBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/TimerCountdownBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -189,6 +190,7 @@
       <workItem from="1602729887975" duration="3655000" />
       <workItem from="1603063502797" duration="2322000" />
       <workItem from="1603134978271" duration="3473000" />
+      <workItem from="1603142415346" duration="5944000" />
     </task>
     <servers />
   </component>

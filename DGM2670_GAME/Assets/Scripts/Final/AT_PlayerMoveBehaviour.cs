@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
-
 public class AT_PlayerMoveBehaviour : MonoBehaviour
 
 {
