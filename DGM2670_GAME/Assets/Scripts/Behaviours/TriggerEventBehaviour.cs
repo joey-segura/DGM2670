@@ -5,7 +5,7 @@ using UnityEngine.Events;
 public class TriggerEventBehaviour : MonoBehaviour
 {
    public UnityEvent triggerEnterEvent;
-   public float delayTime = 1f;
+   public float delayTime = 0f;
    private WaitForSeconds waitObj;
    
    void Start()

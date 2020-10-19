@@ -28,6 +28,7 @@
             <e p="DebugData.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
+            <e p="StringListData.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />
           </e>
           <e p="Final" t="Include">
@@ -35,6 +36,7 @@
             <e p="AT_CameraBehaviour.cs" t="Include" />
             <e p="AT_PlatformInteract.cs" t="Include" />
             <e p="AT_PlayerMoveBehaviour.cs" t="Include" />
+            <e p="AT_TubeSpawner.cs" t="Include" />
           </e>
           <e p="gameManager.cs" t="Include" />
           <e p="MonoEventsBehaviour.cs" t="Include" />
