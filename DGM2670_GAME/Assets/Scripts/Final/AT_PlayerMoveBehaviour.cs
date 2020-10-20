@@ -91,5 +91,12 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
             currentSpeed = defaultSpeed;
             remainingSprint += 0.1f;
         }
+        
+        
+        //FOR TESTING PURPOSES ONLY
+        if (Input.GetKeyDown(KeyCode.T) && cntrl.isGrounded)
+        {
+            movement.y = jumpForce * 2f;
+        }
     }
 }

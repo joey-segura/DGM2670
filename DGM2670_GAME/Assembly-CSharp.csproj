@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\AIBehaviour.cs" />
+     <Compile Include="Assets\AT_BinocularBehavoiur.cs" />
      <Compile Include="Assets\Scripts\Behaviours\AddValueBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\BulletBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\CamFollowBehaviour.cs" />
@@ -77,7 +78,7 @@
      <Compile Include="Assets\Scripts\Final\AT_CameraBehaviour.cs" />
      <Compile Include="Assets\Scripts\Final\AT_PlatformInteract.cs" />
      <Compile Include="Assets\Scripts\Final\AT_PlayerMoveBehaviour.cs" />
-     <Compile Include="Assets\Scripts\Final\AT_TubeSpawner.cs" />
+     <Compile Include="Assets\Scripts\Final\AT_TimerCountdownBehaviour.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\MonoEventsBehaviour.cs" />
      <Compile Include="Assets\Scripts\MouseEventBehaviour.cs" />
@@ -86,7 +87,6 @@
      <Compile Include="Assets\Scripts\Revised\LerpBehaviour.cs" />
      <Compile Include="Assets\Scripts\Revised\MoveBehaviour.cs" />
      <Compile Include="Assets\Scripts\Revised\PlayerMoveBehaviour.cs" />
-     <Compile Include="Assets\TimerCountdownBehaviour.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
