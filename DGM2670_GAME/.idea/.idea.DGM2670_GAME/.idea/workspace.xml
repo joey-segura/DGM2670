@@ -92,11 +92,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DataSO/StringListData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_TubeSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/TimerCountdownBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_TimerCountdownBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_CameraBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RBInteractBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/AT_BinocularBehavoiur.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_TimerCountdownBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -192,6 +192,7 @@
       <workItem from="1603134978271" duration="3473000" />
       <workItem from="1603142415346" duration="5944000" />
       <workItem from="1603152999266" duration="5280000" />
+      <workItem from="1603292636817" duration="2198000" />
     </task>
     <servers />
   </component>

@@ -25,7 +25,7 @@ public class AT_TimerCountdownBehaviour : MonoBehaviour
             yield return new WaitForSeconds(1f);
 
             timerTime--;
-            if (timerTime == 3)
+            if (timerTime == 2)
             {
                 GameObject rollingLogClone = (GameObject)Instantiate(rollingLog, tubeLocation.position, tubeLocation.rotation);
                 Destroy (rollingLogClone, 40.0f);

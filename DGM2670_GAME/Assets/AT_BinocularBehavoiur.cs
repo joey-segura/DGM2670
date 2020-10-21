@@ -13,7 +13,7 @@ public class AT_BinocularBehavoiur : MonoBehaviour
     
     void OnTriggerEnter(Collider other)
     {
-        cameraBehaviour.fovMIN = 100.0f;
+        cameraBehaviour.fovMIN = 80.0f;
     }
     
     void OnTriggerExit(Collider other)
