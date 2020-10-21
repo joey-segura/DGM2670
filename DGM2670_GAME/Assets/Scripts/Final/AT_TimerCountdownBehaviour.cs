@@ -7,6 +7,7 @@ public class AT_TimerCountdownBehaviour : MonoBehaviour
 {
     public Transform tubeLocation;
     public GameObject rollingLog;
+    public float logForce = 30f;
     
     public int timerTime = 10;
     public Text timerDisplay;
@@ -28,7 +29,8 @@ public class AT_TimerCountdownBehaviour : MonoBehaviour
             if (timerTime == 2)
             {
                 GameObject rollingLogClone = (GameObject)Instantiate(rollingLog, tubeLocation.position, tubeLocation.rotation);
-                Destroy (rollingLogClone, 40.0f);
+                rollingLogClone.GetComponentInChildren<Rigidbody>().AddForce(transform.forward * logForce);
+                Destroy (rollingLogClone, 50.0f);
             }
             if (timerTime == 0)
             {
