@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\Behaviours\AddValueBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\BulletBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\CamFollowBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\CharacterWithStates.cs" />
      <Compile Include="Assets\Scripts\Behaviours\CharControlBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\ExplosionBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\HealthBehaviour.cs" />
@@ -69,6 +70,7 @@
      <Compile Include="Assets\Scripts\Behaviours\SpawnAssetBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\TriggerEventBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\UpdateTextBehaviour.cs" />
+     <Compile Include="Assets\Scripts\DataSO\CharacterStateMachineData.cs" />
      <Compile Include="Assets\Scripts\DataSO\DebugData.cs" />
      <Compile Include="Assets\Scripts\DataSO\FloatData.cs" />
      <Compile Include="Assets\Scripts\DataSO\IntData.cs" />

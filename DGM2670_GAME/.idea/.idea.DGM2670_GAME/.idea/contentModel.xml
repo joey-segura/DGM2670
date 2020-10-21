@@ -13,6 +13,7 @@
             <e p="AddValueBehaviour.cs" t="Include" />
             <e p="BulletBehaviour.cs" t="Include" />
             <e p="CamFollowBehaviour.cs" t="Include" />
+            <e p="CharacterWithStates.cs" t="Include" />
             <e p="CharControlBehaviour.cs" t="Include" />
             <e p="ExplosionBehaviour.cs" t="Include" />
             <e p="HealthBehaviour.cs" t="Include" />
@@ -26,6 +27,7 @@
             <e p="UpdateTextBehaviour.cs" t="Include" />
           </e>
           <e p="DataSO" t="Include">
+            <e p="CharacterStateMachineData.cs" t="Include" />
             <e p="DebugData.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
