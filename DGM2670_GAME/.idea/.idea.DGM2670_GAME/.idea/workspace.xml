@@ -96,9 +96,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_CameraBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RBInteractBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/AT_BinocularBehavoiur.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_TimerCountdownBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataSO/CharacterStateMachineData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterWithStates.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_TimerCountdownBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -197,6 +197,7 @@
       <workItem from="1603292636817" duration="2198000" />
       <workItem from="1603304578276" duration="1145000" />
       <workItem from="1603307701933" duration="3305000" />
+      <workItem from="1603319470478" duration="256000" />
     </task>
     <servers />
   </component>

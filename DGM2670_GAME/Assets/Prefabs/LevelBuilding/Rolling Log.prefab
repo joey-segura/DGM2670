@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6956810293886579042}
   - component: {fileID: 7882550694768793146}
   - component: {fileID: 6956810293886579040}
+  - component: {fileID: 7266725526994445970}
   m_Layer: 0
   m_Name: RL_GFX1
   m_TagString: Untagged
@@ -110,6 +111,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!75 &7266725526994445970
+ConstantForce:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6956810293886579046}
+  m_Enabled: 1
+  m_Force: {x: 0, y: 0, z: 0.25}
+  m_RelativeForce: {x: 0, y: 0, z: 0}
+  m_Torque: {x: 0, y: 0, z: 0}
+  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &6956810295075462031
 GameObject:
   m_ObjectHideFlags: 0
