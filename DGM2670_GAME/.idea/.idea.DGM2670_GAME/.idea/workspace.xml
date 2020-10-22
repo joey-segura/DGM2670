@@ -35,6 +35,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterWithStates.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Revised/PlayerMoveBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LockWallBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoEventsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AT_BinocularBehavoiur.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/UpdateTextBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -48,7 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Lerping.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseLocator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Knockout.cs" />
@@ -99,6 +99,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DataSO/CharacterStateMachineData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterWithStates.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_TimerCountdownBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/LockWallBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -198,6 +199,7 @@
       <workItem from="1603304578276" duration="1145000" />
       <workItem from="1603307701933" duration="3305000" />
       <workItem from="1603319470478" duration="256000" />
+      <workItem from="1603320163637" duration="175000" />
     </task>
     <servers />
   </component>
