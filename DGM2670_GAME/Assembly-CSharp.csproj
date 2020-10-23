@@ -90,6 +90,7 @@
      <Compile Include="Assets\Scripts\Revised\LerpBehaviour.cs" />
      <Compile Include="Assets\Scripts\Revised\MoveBehaviour.cs" />
      <Compile Include="Assets\Scripts\Revised\PlayerMoveBehaviour.cs" />
+     <Compile Include="Assets\StepSpawnBehaviour.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />

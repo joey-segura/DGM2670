@@ -24,6 +24,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Revised/GroundCheckBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/LookAtBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataSO/CharacterStateMachineData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StepSpawnBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../OTE/ronnyGame/unity3d-ronnyGame/Assets/Scripts/cameraRotation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Revised/MoveBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Revised/LerpBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -49,7 +50,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseLocator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Knockout.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/gameManager.cs" />
@@ -100,6 +100,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterWithStates.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_TimerCountdownBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/LockWallBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/StepSpawnBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -200,6 +201,7 @@
       <workItem from="1603307701933" duration="3305000" />
       <workItem from="1603319470478" duration="256000" />
       <workItem from="1603320163637" duration="175000" />
+      <workItem from="1603421741903" duration="1124000" />
     </task>
     <servers />
   </component>
