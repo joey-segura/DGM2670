@@ -10,7 +10,7 @@ public class StepSpawnBehaviour : MonoBehaviour
     
     void Start()
     {
-        Vector3 randomPosition = new Vector3(Random.Range(92f, 108f), 10F, Random.Range(43f, 55f));
+        Vector3 randomPosition = new Vector3(Random.Range(91f, 108f), 10F, Random.Range(43f, 55f));
         Vector3 randomPosition2 = new Vector3(Random.Range(92f, 108f), 10F, Random.Range(23f, 38f));
 
         Instantiate(step_1, randomPosition, Quaternion.identity);
