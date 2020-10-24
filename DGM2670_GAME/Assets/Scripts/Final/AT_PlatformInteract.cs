@@ -15,7 +15,7 @@ public class AT_PlatformInteract : MonoBehaviour
     {
         if (other.gameObject == player)
         {
-            player.transform.parent = transform;
+            player.transform.position = transform.position;
             Debug.Log("Triggering");
         }
     }

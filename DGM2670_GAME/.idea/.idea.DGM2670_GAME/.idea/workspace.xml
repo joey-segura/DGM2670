@@ -87,7 +87,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AIPatrol.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AIPatrol.cs" />
         <option value="$PROJECT_DIR$/Assets/AIBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlatformInteract.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/TriggerEventBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataSO/StringListData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_TubeSpawner.cs" />
@@ -101,6 +100,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_TimerCountdownBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/LockWallBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/StepSpawnBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlatformInteract.cs" />
       </list>
     </option>
   </component>
@@ -203,6 +203,7 @@
       <workItem from="1603320163637" duration="175000" />
       <workItem from="1603421741903" duration="1124000" />
       <workItem from="1603469360332" duration="299000" />
+      <workItem from="1603558444821" duration="23000" />
     </task>
     <servers />
   </component>
