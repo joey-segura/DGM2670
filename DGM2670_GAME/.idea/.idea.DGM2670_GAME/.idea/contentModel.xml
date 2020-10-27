@@ -41,6 +41,7 @@
             <e p="AT_PlatformInteract.cs" t="Include" />
             <e p="AT_PlayerMoveBehaviour.cs" t="Include" />
             <e p="AT_TimerCountdownBehaviour.cs" t="Include" />
+            <e p="AttachBehaviour.cs" t="Include" />
           </e>
           <e p="gameManager.cs" t="Include" />
           <e p="MonoEventsBehaviour.cs" t="Include" />

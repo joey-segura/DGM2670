@@ -82,6 +82,7 @@
      <Compile Include="Assets\Scripts\Final\AT_PlatformInteract.cs" />
      <Compile Include="Assets\Scripts\Final\AT_PlayerMoveBehaviour.cs" />
      <Compile Include="Assets\Scripts\Final\AT_TimerCountdownBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Final\AttachBehaviour.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\MonoEventsBehaviour.cs" />
      <Compile Include="Assets\Scripts\MouseEventBehaviour.cs" />

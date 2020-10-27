@@ -31,6 +31,7 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
     
     void Update()
     {
+        Debug.Log(transform.parent);
         //Player movement.
         
         movement.z = Input.GetAxis("Vertical") * currentSpeed;

@@ -45,12 +45,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataSO/DebugData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RBInteractBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Final/AT_CameraBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Final/AttachBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataSO/Vector3Data.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/MouseLocator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Knockout.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/gameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/cameraFollow.cs" />
@@ -91,7 +91,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DataSO/StringListData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_TubeSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/TimerCountdownBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_CameraBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RBInteractBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/AT_BinocularBehavoiur.cs" />
@@ -101,6 +100,8 @@
         <option value="$PROJECT_DIR$/Assets/LockWallBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/StepSpawnBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlatformInteract.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Final/AttachBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -204,6 +205,7 @@
       <workItem from="1603421741903" duration="1124000" />
       <workItem from="1603469360332" duration="299000" />
       <workItem from="1603558444821" duration="23000" />
+      <workItem from="1603740747696" duration="4313000" />
     </task>
     <servers />
   </component>
