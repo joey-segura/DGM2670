@@ -55,6 +55,7 @@
   <ItemGroup>
      <Compile Include="Assets\AIBehaviour.cs" />
      <Compile Include="Assets\AT_BinocularBehavoiur.cs" />
+     <Compile Include="Assets\DestroyOnCollide.cs" />
      <Compile Include="Assets\LockWallBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\AddValueBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\BulletBehaviour.cs" />

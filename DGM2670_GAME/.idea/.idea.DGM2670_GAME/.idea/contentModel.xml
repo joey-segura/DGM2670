@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="AIBehaviour.cs" t="Include" />
         <e p="AT_BinocularBehavoiur.cs" t="Include" />
+        <e p="DestroyOnCollide.cs" t="Include" />
         <e p="LockWallBehaviour.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Behaviours" t="Include">
