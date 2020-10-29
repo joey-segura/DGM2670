@@ -7,8 +7,6 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="AIBehaviour.cs" t="Include" />
-        <e p="AT_BinocularBehavoiur.cs" t="Include" />
-        <e p="DestroyOnCollide.cs" t="Include" />
         <e p="LockWallBehaviour.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Behaviours" t="Include">
@@ -38,11 +36,13 @@
           </e>
           <e p="Final" t="Include">
             <e p="AIPatrol.cs" t="Include" />
+            <e p="AT_BinocularBehavoiur.cs" t="Include" />
             <e p="AT_CameraBehaviour.cs" t="Include" />
             <e p="AT_PlatformInteract.cs" t="Include" />
             <e p="AT_PlayerMoveBehaviour.cs" t="Include" />
             <e p="AT_TimerCountdownBehaviour.cs" t="Include" />
             <e p="AttachBehaviour.cs" t="Include" />
+            <e p="DestroyOnTrigger.cs" t="Include" />
           </e>
           <e p="gameManager.cs" t="Include" />
           <e p="MonoEventsBehaviour.cs" t="Include" />
