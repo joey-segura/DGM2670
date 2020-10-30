@@ -38,6 +38,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LockWallBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoEventsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LightSwitch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Final/DestroyOnTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/UpdateTextBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/TriggerEventBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -51,7 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerControls.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnAsset.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Laser.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthBehaviour.cs" />
@@ -102,6 +102,7 @@
         <option value="$PROJECT_DIR$/Assets/DestroyOnCollide.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/DestroyOnTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/DestroyOnCollision.cs" />
+        <option value="$PROJECT_DIR$/Assets/LightSwitch.cs" />
       </list>
     </option>
   </component>
@@ -206,7 +207,8 @@
       <workItem from="1603469360332" duration="299000" />
       <workItem from="1603558444821" duration="23000" />
       <workItem from="1603740747696" duration="4313000" />
-      <workItem from="1603915849234" duration="4083000" />
+      <workItem from="1603915849234" duration="4683000" />
+      <workItem from="1604030827122" duration="672000" />
     </task>
     <servers />
   </component>

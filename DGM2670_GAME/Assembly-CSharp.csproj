@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\AIBehaviour.cs" />
+     <Compile Include="Assets\LightSwitch.cs" />
      <Compile Include="Assets\LockWallBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\AddValueBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\BulletBehaviour.cs" />
