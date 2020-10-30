@@ -10,6 +10,8 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
 
     private Vector3 movement;
 
+    public bool canMove;
+
     public float currentSpeed,
         defaultSpeed = 4f,
         speedySpeed = 8f,
@@ -25,6 +27,7 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
 
     void Start()
     {
+        canMove = true;
         cntrl = GetComponent<CharacterController>();
         remainingSprint = sprintMax;
     }
@@ -32,6 +35,11 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
     void Update()
     {
         //Player movement.
+
+        if (canMove == false)
+        {
+            cntrl.Move(Vector3.zero);
+        }
         
         movement.z = Input.GetAxis("Vertical") * currentSpeed;
         movement.x = Input.GetAxis("Horizontal") * currentSpeed;
@@ -86,12 +94,12 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
             currentSpeed = speedySpeed;
             remainingSprint -= 0.1f;
         } 
+        
         else
         {
             currentSpeed = defaultSpeed;
             remainingSprint += 0.1f;
         }
-        
         
         //FOR TESTING PURPOSES ONLY
         if (Input.GetKeyDown(KeyCode.T) && cntrl.isGrounded)

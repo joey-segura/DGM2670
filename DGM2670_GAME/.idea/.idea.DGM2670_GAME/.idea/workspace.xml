@@ -33,6 +33,7 @@
     <setting file="file://$PROJECT_DIR$/../../../DGM1610/Project1/Assets/Scripts/gameScripts/movement3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataSO/StringListData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/AddValueBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Final/DeathRespawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterWithStates.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Revised/PlayerMoveBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -44,7 +45,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/TriggerEventBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/SpawnAssetBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataSO/DebugData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RBInteractBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RBInteractBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Final/AT_CameraBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Final/AttachBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataSO/Vector3Data.cs" root0="FORCE_HIGHLIGHTING" />
@@ -52,7 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnAsset.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Laser.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AddValueBehaviour.cs" />
@@ -98,11 +98,12 @@
         <option value="$PROJECT_DIR$/Assets/StepSpawnBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlatformInteract.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AttachBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/DestroyOnCollide.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/DestroyOnTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/DestroyOnCollision.cs" />
         <option value="$PROJECT_DIR$/Assets/LightSwitch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Final/DeathRespawn.cs" />
       </list>
     </option>
   </component>
@@ -209,6 +210,7 @@
       <workItem from="1603740747696" duration="4313000" />
       <workItem from="1603915849234" duration="4683000" />
       <workItem from="1604030827122" duration="672000" />
+      <workItem from="1604070392433" duration="1113000" />
     </task>
     <servers />
   </component>
@@ -244,6 +246,19 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Final/DeathRespawn.cs</url>
+          <line>32</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Final/DeathRespawn.cs" initialLine="32">
+            <startOffsets>
+              <option value="751" />
+            </startOffsets>
+            <endOffsets>
+              <option value="798" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
