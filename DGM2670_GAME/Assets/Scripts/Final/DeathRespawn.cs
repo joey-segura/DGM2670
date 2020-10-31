@@ -5,14 +5,16 @@ using UnityEngine;
 public class DeathRespawn : MonoBehaviour
 {
 
-    public Vector3 respawnPos;
+    public GameObject respawnPos;
+    public GameObject[] humanoids;
     public GameObject player;
 
+    private int randomInt;
+    
     public AT_PlayerMoveBehaviour playerMoveScript;
-
-    void Start()
+    
+    void Update()
     {
-        respawnPos = new Vector3(100f,109f,-14.1f);
         player = GameObject.FindWithTag("Player");
     }
     
@@ -28,8 +30,17 @@ public class DeathRespawn : MonoBehaviour
     {
         playerMoveScript.canMove = false;
         yield return new WaitForSeconds(3f);
-        player.transform.position = respawnPos;
+        player.transform.position = respawnPos.transform.position;
+        player.SetActive(false);
         playerMoveScript.canMove = true;
         playerMoveScript.currentSpeed = 0f;
+        
+        SpawnNewHumanoid();
+    }
+
+    void SpawnNewHumanoid()
+    {
+        randomInt = Random.Range(0, humanoids.Length);
+        Instantiate(humanoids[randomInt], player.transform.position, player.transform.rotation);
     }
 }

@@ -8,15 +8,10 @@ public class AT_CameraBehaviour : MonoBehaviour
     public float followSpeed = 0.1f;
     public float cameraFOV, fovMAX = 53.0f, fovMIN = 50.0f;
     public float lerpSpeed = 0.1f;
-
-
-    void Start()
-    {
-        cameraFocus = GameObject.Find("Humanoid_01");
-    }
     
     void LateUpdate()
     {
+        cameraFocus = GameObject.FindWithTag("Player");
         if (transform.position != cameraFocus.transform.position)
         {
             Vector3 playerPosition = new Vector3(cameraFocus.transform.position.x, cameraFocus.transform.position.y + 14f, cameraFocus.transform.position.z - 14f);
