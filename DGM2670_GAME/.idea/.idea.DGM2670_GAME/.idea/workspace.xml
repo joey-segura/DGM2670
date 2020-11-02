@@ -211,6 +211,7 @@
       <workItem from="1603915849234" duration="4683000" />
       <workItem from="1604030827122" duration="672000" />
       <workItem from="1604070392433" duration="3347000" />
+      <workItem from="1604271387997" duration="641000" />
     </task>
     <servers />
   </component>
@@ -246,19 +247,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Final/DeathRespawn.cs</url>
-          <line>35</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Final/DeathRespawn.cs" initialLine="32">
-            <startOffsets>
-              <option value="826" />
-            </startOffsets>
-            <endOffsets>
-              <option value="826" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

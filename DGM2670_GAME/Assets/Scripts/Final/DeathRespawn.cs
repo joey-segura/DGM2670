@@ -35,7 +35,7 @@ public class DeathRespawn : MonoBehaviour
         playerMoveScript.canMove = true;
         playerMoveScript.currentSpeed = 0f;
         
-        SpawnNewHumanoid();
+        SpawnNewHumanoid(); 
     }
 
     void SpawnNewHumanoid()
