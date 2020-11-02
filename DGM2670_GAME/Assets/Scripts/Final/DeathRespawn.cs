@@ -9,9 +9,28 @@ public class DeathRespawn : MonoBehaviour
     public GameObject[] humanoids;
     public GameObject player;
 
+    public AudioSource slimeSplat;
+
     private int randomInt;
     
     public AT_PlayerMoveBehaviour playerMoveScript;
+
+    void Awake()
+    {
+        slimeSplat.volume = 0f;
+        slimeSplat = GetComponent<AudioSource>();
+    }
+
+    void Start()
+    {
+        StartCoroutine(SetVolume());
+    }
+
+    IEnumerator SetVolume()
+    {
+        yield return new WaitForSeconds(2f);
+        slimeSplat.volume = 1f;
+    }
     
     void Update()
     {
@@ -20,6 +39,7 @@ public class DeathRespawn : MonoBehaviour
     
     void OnTriggerEnter(Collider other)
     {
+        slimeSplat.Play();
         if (other.gameObject.tag == "Player")
         {
             StartCoroutine(Respawn());
