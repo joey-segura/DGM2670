@@ -22,6 +22,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/AIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseEventBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Revised/GroundCheckBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AT_LightFollowBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/LookAtBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataSO/CharacterStateMachineData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StepSpawnBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -36,8 +37,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Final/DeathRespawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterWithStates.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Revised/PlayerMoveBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ArmControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LockWallBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataSO/GameActionData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoEventsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LightSwitch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Final/DestroyOnTrigger.cs" root0="FORCE_HIGHLIGHTING" />
@@ -53,9 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Laser.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HealthBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AddValueBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharControlBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UpdateTextBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BulletBehaviour.cs" />
@@ -103,7 +103,10 @@
         <option value="$PROJECT_DIR$/Assets/LightSwitch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/DeathRespawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/ArmControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DataSO/GameActionData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_CameraBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/AT_LightFollowBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -214,6 +217,7 @@
       <workItem from="1604271387997" duration="641000" />
       <workItem from="1604279384427" duration="1508000" />
       <workItem from="1604336867920" duration="2345000" />
+      <workItem from="1604348132372" duration="6212000" />
     </task>
     <servers />
   </component>

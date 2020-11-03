@@ -54,6 +54,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\AIBehaviour.cs" />
+     <Compile Include="Assets\ArmControl.cs" />
+     <Compile Include="Assets\AT_LightFollowBehaviour.cs" />
      <Compile Include="Assets\LightSwitch.cs" />
      <Compile Include="Assets\LockWallBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\AddValueBehaviour.cs" />
@@ -74,6 +76,7 @@
      <Compile Include="Assets\Scripts\DataSO\CharacterStateMachineData.cs" />
      <Compile Include="Assets\Scripts\DataSO\DebugData.cs" />
      <Compile Include="Assets\Scripts\DataSO\FloatData.cs" />
+     <Compile Include="Assets\Scripts\DataSO\GameActionData.cs" />
      <Compile Include="Assets\Scripts\DataSO\IntData.cs" />
      <Compile Include="Assets\Scripts\DataSO\StringListData.cs" />
      <Compile Include="Assets\Scripts\DataSO\Vector3Data.cs" />

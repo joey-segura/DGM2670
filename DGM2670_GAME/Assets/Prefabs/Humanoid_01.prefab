@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 81658699281936764}
   m_Layer: 0
   m_Name: Player_FX_ArmL
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -309,7 +309,7 @@ GameObject:
   - component: {fileID: 81658699389375876}
   m_Layer: 0
   m_Name: Player_FX_Shirt
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -382,9 +382,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 81658699705835174}
+  - component: {fileID: 6413736875073299694}
+  - component: {fileID: 5049824238759991350}
   m_Layer: 0
   m_Name: Player_FX_ArmController
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -405,6 +407,37 @@ Transform:
   m_Father: {fileID: 81658700624374312}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &6413736875073299694
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81658699705835169}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dbabf4ee5d4ffcf4ebce6e425abe91ef, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5049824238759991350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81658699705835169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447d1630c09bb964398f55e82bc2fbf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &81658699719735418
 GameObject:
   m_ObjectHideFlags: 0
@@ -419,7 +452,7 @@ GameObject:
   - component: {fileID: 81658699719735416}
   m_Layer: 0
   m_Name: Player_FX_DI
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -507,7 +540,7 @@ GameObject:
   - component: {fileID: 81658699734475453}
   m_Layer: 0
   m_Name: Arm_FXController
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -541,7 +574,7 @@ GameObject:
   - component: {fileID: 81658699771876958}
   m_Layer: 0
   m_Name: Player_FX_ArmR
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -632,7 +665,7 @@ GameObject:
   - component: {fileID: 81658700013251341}
   m_Layer: 0
   m_Name: Player_FX_Pants
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -710,7 +743,7 @@ GameObject:
   - component: {fileID: 81658700463006911}
   m_Layer: 0
   m_Name: Player_FX_Body
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -799,7 +832,7 @@ GameObject:
   - component: {fileID: 81658700624374312}
   m_Layer: 0
   m_Name: Player_FXController
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
