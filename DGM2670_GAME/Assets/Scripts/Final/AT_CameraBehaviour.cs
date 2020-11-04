@@ -21,7 +21,7 @@ public class AT_CameraBehaviour : MonoBehaviour
         cameraFocus = GameObject.FindWithTag("Player");
         if (transform.position != cameraFocus.transform.position)
         {
-            Vector3 playerPosition = new Vector3(cameraFocus.transform.position.x, cameraFocus.transform.position.y + 14f, cameraFocus.transform.position.z - 14f);
+            Vector3 playerPosition = new Vector3(cameraFocus.transform.position.x, cameraFocus.transform.position.y + 16f, cameraFocus.transform.position.z - 16f);
             transform.position = Vector3.Lerp(transform.position, playerPosition, followSpeed);
         }
         

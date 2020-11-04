@@ -876,7 +876,7 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 0.9811321, g: 0.97881687, b: 0.80989677, a: 1}
-  m_Intensity: 0.5
+  m_Intensity: 0.75
   m_Range: 500
   m_SpotAngle: 75
   m_CookieSize: 10
@@ -1342,10 +1342,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8909999379890978347}
-  - component: {fileID: 2937695881822629120}
-  - component: {fileID: 2652809514974833526}
   m_Layer: 0
-  m_Name: Flying Light
+  m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1366,32 +1364,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2937695881822629120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8453448953804891692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba7356d37c2e7654286d4136717490ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lightFocus: {fileID: 0}
-  followSpeed: 0.1
-  lerpSpeed: 0.5
-  lightFollowActive: 1
---- !u!65 &2652809514974833526
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8453448953804891692}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 34.900032, y: 1.1424713, z: 29.109291}
-  m_Center: {x: -13.672581, y: 6.328537, z: 26.068878}
