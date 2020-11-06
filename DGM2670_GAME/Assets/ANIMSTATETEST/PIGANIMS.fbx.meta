@@ -1,0 +1,283 @@
+fileFormatVersion: 2
+guid: 64dcfd6959f32bc4db366ee16cc10e6d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BaseCTRL
+    100002: controlGRP
+    100004: HeadCTRL
+    100006: ikGRP
+    100008: J_head
+    100010: J_middleBack
+    100012: J_root
+    100014: J_tail1
+    100016: J_tail2
+    100018: J_tail3
+    100020: J_tail4
+    100022: J_upperBack
+    100024: JointGRP
+    100026: L_J_ankle
+    100028: L_J_elbow
+    100030: L_J_hip
+    100032: L_J_knee
+    100034: L_J_shoulder
+    100036: L_J_wrist
+    100038: L_legIK
+    100040: LeftElbowCTRL
+    100042: LeftFootCTRL
+    100044: LeftLegPole
+    100046: LeftShoulderCTRL
+    100048: LeftWristCTRL
+    100050: LowerBackCTRL
+    100052: MeshGRP
+    100054: //RootNode
+    100056: PigUV3_ThePig
+    100058: R_J_ankle
+    100060: R_J_elbow
+    100062: R_J_hip
+    100064: R_J_knee
+    100066: R_J_shoulder
+    100068: R_J_wrist
+    100070: R_legIK
+    100072: RedundantBodyCTRL
+    100074: RedundantFootRDCTRL
+    100076: RightElbowCTRL
+    100078: RightFootCTRL
+    100080: RightLegPole
+    100082: RightShoulderCTRL
+    100084: RightWristCTRL
+    100086: RootCTRL
+    100088: Tail1CTRL
+    100090: Tail2CTRL
+    100092: Tail3CTRL
+    100094: Tail4CTRL
+    100096: touchNot
+    100098: UpperBackCTRL
+    400000: BaseCTRL
+    400002: controlGRP
+    400004: HeadCTRL
+    400006: ikGRP
+    400008: J_head
+    400010: J_middleBack
+    400012: J_root
+    400014: J_tail1
+    400016: J_tail2
+    400018: J_tail3
+    400020: J_tail4
+    400022: J_upperBack
+    400024: JointGRP
+    400026: L_J_ankle
+    400028: L_J_elbow
+    400030: L_J_hip
+    400032: L_J_knee
+    400034: L_J_shoulder
+    400036: L_J_wrist
+    400038: L_legIK
+    400040: LeftElbowCTRL
+    400042: LeftFootCTRL
+    400044: LeftLegPole
+    400046: LeftShoulderCTRL
+    400048: LeftWristCTRL
+    400050: LowerBackCTRL
+    400052: MeshGRP
+    400054: //RootNode
+    400056: PigUV3_ThePig
+    400058: R_J_ankle
+    400060: R_J_elbow
+    400062: R_J_hip
+    400064: R_J_knee
+    400066: R_J_shoulder
+    400068: R_J_wrist
+    400070: R_legIK
+    400072: RedundantBodyCTRL
+    400074: RedundantFootRDCTRL
+    400076: RightElbowCTRL
+    400078: RightFootCTRL
+    400080: RightLegPole
+    400082: RightShoulderCTRL
+    400084: RightWristCTRL
+    400086: RootCTRL
+    400088: Tail1CTRL
+    400090: Tail2CTRL
+    400092: Tail3CTRL
+    400094: Tail4CTRL
+    400096: touchNot
+    400098: UpperBackCTRL
+    2100000: PGlambert
+    2100002: PGblinn
+    4300000: PigUV3_ThePig
+    7400000: PIGWALK
+    7400002: PIGJUMP
+    7400004: PIGIDLE
+    9500000: //RootNode
+    13700000: PigUV3_ThePig
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: PIGWALK
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PIGJUMP
+      takeName: Take 001
+      firstFrame: 25
+      lastFrame: 37
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PIGIDLE
+      takeName: Take 001
+      firstFrame: 38
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
