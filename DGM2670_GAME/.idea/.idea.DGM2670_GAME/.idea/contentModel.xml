@@ -7,6 +7,9 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="AIBehaviour.cs" t="Include" />
+        <e p="ANIMSTATETEST" t="Include">
+          <e p="PigAnimControl.cs" t="Include" />
+        </e>
         <e p="ArmControl.cs" t="Include" />
         <e p="AT_LightFollowBehaviour.cs" t="Include" />
         <e p="LightSwitch.cs" t="Include" />

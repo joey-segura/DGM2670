@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\AIBehaviour.cs" />
+     <Compile Include="Assets\ANIMSTATETEST\PigAnimControl.cs" />
      <Compile Include="Assets\ArmControl.cs" />
      <Compile Include="Assets\AT_LightFollowBehaviour.cs" />
      <Compile Include="Assets\LightSwitch.cs" />
