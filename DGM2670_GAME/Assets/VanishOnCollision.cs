@@ -5,43 +5,40 @@ using UnityEngine;
 
 public class VanishOnCollision : MonoBehaviour
 {
-    public float newScale = 0.1f;
-    public float startScale;
-    public float shrinkSpeed = 10f;
-
-    public bool shrink;
+    public Animator scaleAnimator;
+    public Renderer meshRend;
+    public Collider vanishCol;
 
     void Start()
     {
-        shrink = false;
+        scaleAnimator = gameObject.GetComponent<Animator>();
+        meshRend = gameObject.GetComponent<Renderer>();
+        vanishCol = gameObject.GetComponent<MeshCollider>();
     }
     
     void OnTriggerEnter(Collider col)
     {
-        Debug.Log("Hit");
         if (col.gameObject.tag == "Player")
         {
-            StartCoroutine("Vanish");
-            shrink = true;
-        }
-    }
-
-    void Update()
-    {
-        Debug.Log(this.gameObject.transform.localScale);
-
-        if (shrink == true)
-        {
-            newScale = Mathf.MoveTowards(newScale, startScale, Time.deltaTime * shrinkSpeed);
-            gameObject.transform.localScale = new Vector3(newScale, newScale, newScale);
+            Debug.Log("Hit");
             
-            //this.gameObject.transform.localScale -= Vector3.one * Time.deltaTime * shrinkSpeed;
+            scaleAnimator.SetBool("Shrink", true);
+            StartCoroutine("Vanish");
         }
     }
     
     IEnumerator Vanish()
     {
-        yield return new WaitForSeconds(1.5f);
-        gameObject.SetActive(false);
+        yield return new WaitForSeconds(1.4f);
+
+        meshRend.enabled = false;
+        vanishCol.enabled = false;
+        
+        yield return new WaitForSeconds(3);
+        
+        scaleAnimator.SetBool("Shrink", false);
+        
+        meshRend.enabled = true;
+        vanishCol.enabled = true;
     }
 }
