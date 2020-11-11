@@ -29,7 +29,7 @@ public class AT_TimerCountdownBehaviour : MonoBehaviour
             if (timerTime == 2)
             {
                 GameObject rollingLogClone = (GameObject)Instantiate(rollingLog, tubeLocation.position, tubeLocation.rotation);
-                Destroy (rollingLogClone, 50.0f);
+                Destroy (rollingLogClone, 55.0f);
             }
             if (timerTime == 0)
             {

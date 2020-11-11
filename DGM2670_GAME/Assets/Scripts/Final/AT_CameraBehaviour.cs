@@ -29,7 +29,7 @@ public class AT_CameraBehaviour : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit))
         {
-            print("I'm looking at " + hit.transform.name);
+            //print("I'm looking at " + hit.transform.name);
 
             if (hit.collider.tag != "Player")
             {
