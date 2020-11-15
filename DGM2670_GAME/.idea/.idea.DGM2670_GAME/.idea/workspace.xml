@@ -33,6 +33,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Revised/LerpBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataSO/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CamDestroyBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../DGM1610/Project1/Assets/Scripts/gameScripts/movement3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataSO/StringListData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/AddValueBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -58,7 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/MovementBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LerpBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseLocateBehaviour.cs" />
@@ -109,6 +109,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_TimerCountdownBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_CameraBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/VanishOnCollision.cs" />
+        <option value="$PROJECT_DIR$/Assets/CamDestroyBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -225,6 +226,7 @@
       <workItem from="1604973799625" duration="227000" />
       <workItem from="1605060136452" duration="1799000" />
       <workItem from="1605118948588" duration="4137000" />
+      <workItem from="1605388137478" duration="1682000" />
     </task>
     <servers />
   </component>
