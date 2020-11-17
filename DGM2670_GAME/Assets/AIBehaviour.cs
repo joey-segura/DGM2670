@@ -16,12 +16,7 @@ public class AIBehaviour : MonoBehaviour
     
     public List<GameObject> patrolPoints;
     private int i = 0;
-    
-    void Awake()
-    {
-        playerLocation = GameObject.FindWithTag("Player");
-    }
-    
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -29,6 +24,11 @@ public class AIBehaviour : MonoBehaviour
         i = 0;
     }
 
+    void LateUpdate()
+    {
+        playerLocation = GameObject.FindWithTag("Player");
+    }
+    
     void Update()
     {
         timeSinceCharge += Time.deltaTime;

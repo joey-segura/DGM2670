@@ -12,6 +12,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/deathByCrab.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Final/AIPatrol.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataSO/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ANIMSTATETEST/PigAnimControl.cs" root0="FORCE_HIGHLIGHTING" />
@@ -20,7 +21,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Final/AT_PlatformInteract.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/CamFollowBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Final/AT_TimerCountdownBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AIBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseEventBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Revised/GroundCheckBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AT_LightFollowBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -59,7 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/LerpBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseLocateBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Revised/MovementMono.cs" />
@@ -82,7 +82,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Revised/VelocityMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AIPatrol.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AIPatrol.cs" />
-        <option value="$PROJECT_DIR$/Assets/AIBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/TriggerEventBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataSO/StringListData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_TubeSpawner.cs" />
@@ -110,6 +109,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_CameraBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/VanishOnCollision.cs" />
         <option value="$PROJECT_DIR$/Assets/CamDestroyBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/AIBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/deathByCrab.cs" />
       </list>
     </option>
   </component>
@@ -227,6 +228,7 @@
       <workItem from="1605060136452" duration="1799000" />
       <workItem from="1605118948588" duration="4137000" />
       <workItem from="1605388137478" duration="1682000" />
+      <workItem from="1605564496838" duration="5572000" />
     </task>
     <servers />
   </component>

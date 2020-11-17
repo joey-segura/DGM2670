@@ -58,6 +58,7 @@
      <Compile Include="Assets\ArmControl.cs" />
      <Compile Include="Assets\AT_LightFollowBehaviour.cs" />
      <Compile Include="Assets\CamDestroyBehaviour.cs" />
+     <Compile Include="Assets\deathByCrab.cs" />
      <Compile Include="Assets\LightSwitch.cs" />
      <Compile Include="Assets\LockWallBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\AddValueBehaviour.cs" />

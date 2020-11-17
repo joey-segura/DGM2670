@@ -13,6 +13,7 @@
         <e p="ArmControl.cs" t="Include" />
         <e p="AT_LightFollowBehaviour.cs" t="Include" />
         <e p="CamDestroyBehaviour.cs" t="Include" />
+        <e p="deathByCrab.cs" t="Include" />
         <e p="LightSwitch.cs" t="Include" />
         <e p="LockWallBehaviour.cs" t="Include" />
         <e p="Scripts" t="Include">
