@@ -74,6 +74,7 @@
      <Compile Include="Assets\Scripts\Behaviours\MouseLocateBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\MovementBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\SpawnAssetBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\StaminaBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\TriggerEventBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\UpdateTextBehaviour.cs" />
      <Compile Include="Assets\Scripts\DataSO\CharacterStateMachineData.cs" />

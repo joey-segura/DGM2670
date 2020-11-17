@@ -31,6 +31,7 @@
             <e p="MouseLocateBehaviour.cs" t="Include" />
             <e p="MovementBehaviour.cs" t="Include" />
             <e p="SpawnAssetBehaviour.cs" t="Include" />
+            <e p="StaminaBehaviour.cs" t="Include" />
             <e p="TriggerEventBehaviour.cs" t="Include" />
             <e p="UpdateTextBehaviour.cs" t="Include" />
           </e>

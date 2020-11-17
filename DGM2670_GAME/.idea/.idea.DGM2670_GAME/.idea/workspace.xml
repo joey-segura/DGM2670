@@ -41,6 +41,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Final/DeathRespawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterWithStates.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Revised/PlayerMoveBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/StaminaBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ArmControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LockWallBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -60,7 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/LookBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseLocateBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Revised/MovementMono.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Revised/MovementBehaviour.cs" />
@@ -98,7 +98,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/DestroyOnTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/DestroyOnCollision.cs" />
         <option value="$PROJECT_DIR$/Assets/LightSwitch.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/DeathRespawn.cs" />
         <option value="$PROJECT_DIR$/Assets/ArmControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataSO/GameActionData.cs" />
@@ -111,6 +110,8 @@
         <option value="$PROJECT_DIR$/Assets/CamDestroyBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/AIBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/deathByCrab.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/StaminaBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -229,6 +230,7 @@
       <workItem from="1605118948588" duration="4137000" />
       <workItem from="1605388137478" duration="1682000" />
       <workItem from="1605564496838" duration="5572000" />
+      <workItem from="1605652305617" duration="1558000" />
     </task>
     <servers />
   </component>

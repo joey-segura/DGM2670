@@ -21,15 +21,13 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
         decreasedGravity = 0.5f;
     public int jumpCount = 1, jumpCountMax = 1;
     public float jumpCooldown = 0.85f, timeSinceJump;
-    public float remainingSprint, sprintMax = 10f, sprintMin = 1f;
-    
+
     private LineRenderer laserSight;
 
     void Start()
     {
         canMove = true;
         cntrl = GetComponent<CharacterController>();
-        remainingSprint = sprintMax;
     }
     
     void Update()
@@ -89,16 +87,14 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
 
         //Sprinting.
         
-        if (Input.GetKey(KeyCode.LeftShift) && remainingSprint > sprintMin && cntrl.isGrounded)
+        if (Input.GetKey(KeyCode.LeftShift) && cntrl.isGrounded)
         {
             currentSpeed = speedySpeed;
-            remainingSprint -= 0.1f;
         } 
         
         else
         {
             currentSpeed = defaultSpeed;
-            remainingSprint += 0.1f;
         }
         
         //FOR TESTING PURPOSES ONLY
