@@ -42,8 +42,8 @@ public class deathByCrab : MonoBehaviour
         //slimeSplat.Play();
         if (other.gameObject.tag == "Player")
         {
-            Debug.Log("Triggered");
             StartCoroutine(Respawn());
+            lifeCounterBehaviour.life = lifeCounterBehaviour.life - 1;
         }
     }
 
@@ -51,9 +51,7 @@ public class deathByCrab : MonoBehaviour
     {
         player.transform.position = respawnPos.transform.position;
         player.SetActive(false);
-        playerMoveScript.canMove = true;
-        playerMoveScript.currentSpeed = 0f;
-        
+
         SpawnNewHumanoid();
         yield return null;
     }

@@ -12,8 +12,6 @@ public class DeathRespawn : MonoBehaviour
     public AudioSource slimeSplat;
 
     private int randomInt;
-    
-    public AT_PlayerMoveBehaviour playerMoveScript;
 
     void Awake()
     {
@@ -43,19 +41,18 @@ public class DeathRespawn : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             StartCoroutine(Respawn());
+            lifeCounterBehaviour.life = lifeCounterBehaviour.life - 1;
         }
     }
 
     IEnumerator Respawn()
     {
-        playerMoveScript.canMove = false;
-        yield return new WaitForSeconds(3f);
+    
         player.transform.position = respawnPos.transform.position;
         player.SetActive(false);
-        playerMoveScript.canMove = true;
-        playerMoveScript.currentSpeed = 0f;
-        
-        SpawnNewHumanoid(); 
+
+        SpawnNewHumanoid();
+        yield return null;
     }
 
     void SpawnNewHumanoid()

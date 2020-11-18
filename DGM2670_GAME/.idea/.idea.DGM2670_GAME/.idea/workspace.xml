@@ -33,6 +33,7 @@
     <setting file="file://$PROJECT_DIR$/../../../OTE/ronnyGame/unity3d-ronnyGame/Assets/Scripts/cameraRotation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Revised/MoveBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Revised/LerpBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/lifeCounterBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataSO/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CamDestroyBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -62,7 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Revised/MovementMono.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Revised/MovementBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseEventBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataSO/DebugData.cs" />
@@ -98,7 +98,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/DestroyOnTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/DestroyOnCollision.cs" />
         <option value="$PROJECT_DIR$/Assets/LightSwitch.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Final/DeathRespawn.cs" />
         <option value="$PROJECT_DIR$/Assets/ArmControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataSO/GameActionData.cs" />
         <option value="$PROJECT_DIR$/Assets/AT_LightFollowBehaviour.cs" />
@@ -108,11 +107,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_CameraBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/VanishOnCollision.cs" />
         <option value="$PROJECT_DIR$/Assets/CamDestroyBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/AIBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/deathByCrab.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/StaminaBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/MenuBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/lifeCounterBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Final/DeathRespawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/AIBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/deathByCrab.cs" />
       </list>
     </option>
   </component>
@@ -232,6 +233,7 @@
       <workItem from="1605388137478" duration="1682000" />
       <workItem from="1605564496838" duration="5572000" />
       <workItem from="1605652305617" duration="4088000" />
+      <workItem from="1605730673972" duration="1396000" />
     </task>
     <servers />
   </component>
