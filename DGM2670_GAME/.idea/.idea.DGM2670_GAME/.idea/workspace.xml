@@ -21,6 +21,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Final/AT_PlatformInteract.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/CamFollowBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Final/AT_TimerCountdownBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MenuBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AIBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseEventBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Revised/GroundCheckBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -61,7 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/MouseLocateBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Revised/MovementMono.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Revised/MovementBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseEventBehaviour.cs" />
@@ -112,6 +112,7 @@
         <option value="$PROJECT_DIR$/Assets/deathByCrab.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/StaminaBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/MenuBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -230,7 +231,7 @@
       <workItem from="1605118948588" duration="4137000" />
       <workItem from="1605388137478" duration="1682000" />
       <workItem from="1605564496838" duration="5572000" />
-      <workItem from="1605652305617" duration="1558000" />
+      <workItem from="1605652305617" duration="4088000" />
     </task>
     <servers />
   </component>

@@ -61,6 +61,7 @@
      <Compile Include="Assets\deathByCrab.cs" />
      <Compile Include="Assets\LightSwitch.cs" />
      <Compile Include="Assets\LockWallBehaviour.cs" />
+     <Compile Include="Assets\MenuBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\AddValueBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\BulletBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\CamFollowBehaviour.cs" />

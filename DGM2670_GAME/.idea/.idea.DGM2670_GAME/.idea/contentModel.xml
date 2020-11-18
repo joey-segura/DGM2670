@@ -16,6 +16,7 @@
         <e p="deathByCrab.cs" t="Include" />
         <e p="LightSwitch.cs" t="Include" />
         <e p="LockWallBehaviour.cs" t="Include" />
+        <e p="MenuBehaviour.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Behaviours" t="Include">
             <e p="AddValueBehaviour.cs" t="Include" />
