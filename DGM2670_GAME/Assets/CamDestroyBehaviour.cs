@@ -4,22 +4,18 @@ using UnityEngine;
 
 public class CamDestroyBehaviour : MonoBehaviour
 {
-
-    public GameObject secCam;
-
+    public Rigidbody piece;
+    
+    void Start()
+    {
+        piece = GetComponent<Rigidbody>();
+    }
+    
     void OnTriggerEnter()
     {
-        Debug.Log("Triggered");
-        Invoke("DetachChildren", 0);
-    }
-
-    public void DetachChildren(GameObject obj, bool isKin)
-    {
-        Rigidbody[] rBodies = gameObject.GetComponentsInChildren<Rigidbody>();
-        
-        for (int i=0; i < rBodies.Length; i++)
+        if (GameObject.FindWithTag("Player"))
         {
-            rBodies[i].isKinematic = true;
+            piece.isKinematic = false;
         }
     }
 }

@@ -106,7 +106,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_TimerCountdownBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_CameraBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/VanishOnCollision.cs" />
-        <option value="$PROJECT_DIR$/Assets/CamDestroyBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/StaminaBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/MenuBehaviour.cs" />
@@ -114,6 +113,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/DeathRespawn.cs" />
         <option value="$PROJECT_DIR$/Assets/AIBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/deathByCrab.cs" />
+        <option value="$PROJECT_DIR$/Assets/CamDestroyBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -234,6 +234,7 @@
       <workItem from="1605564496838" duration="5572000" />
       <workItem from="1605652305617" duration="4088000" />
       <workItem from="1605730673972" duration="1396000" />
+      <workItem from="1605732638236" duration="2994000" />
     </task>
     <servers />
   </component>
