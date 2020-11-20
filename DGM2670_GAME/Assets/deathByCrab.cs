@@ -9,7 +9,7 @@ public class deathByCrab : MonoBehaviour
     public GameObject[] humanoids;
     public GameObject player;
 
-    public AudioSource slimeSplat;
+    public AudioSource chomp;
 
     private int randomInt;
     
@@ -17,20 +17,20 @@ public class deathByCrab : MonoBehaviour
 
     void Awake()
     {
-        //slimeSplat.volume = 0f;
-        //slimeSplat = GetComponent<AudioSource>();
+        chomp.volume = 0f;
+        chomp = GetComponent<AudioSource>();
     }
 
     void Start()
     {
-        //StartCoroutine(SetVolume());
+        StartCoroutine(SetVolume());
     }
 
-    //IEnumerator SetVolume()
-    //{
-        //yield return new WaitForSeconds(2f);
-        //slimeSplat.volume = 1f;
-    //}
+    IEnumerator SetVolume()
+    {
+        yield return new WaitForSeconds(2f);
+        chomp.volume = 0.5f;
+    }
     
     void Update()
     {
@@ -39,7 +39,7 @@ public class deathByCrab : MonoBehaviour
     
     void OnTriggerEnter(Collider other)
     {
-        //slimeSplat.Play();
+        chomp.Play();
         if (other.gameObject.tag == "Player")
         {
             StartCoroutine(Respawn());
