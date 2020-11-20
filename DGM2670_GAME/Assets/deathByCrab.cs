@@ -39,9 +39,9 @@ public class deathByCrab : MonoBehaviour
     
     void OnTriggerEnter(Collider other)
     {
-        chomp.Play();
         if (other.gameObject.tag == "Player")
         {
+            chomp.Play();
             StartCoroutine(Respawn());
             lifeCounterBehaviour.life = lifeCounterBehaviour.life - 1;
         }

@@ -23,14 +23,10 @@ public class AIBehaviour : MonoBehaviour
         agentRB = GetComponent<Rigidbody>();
         i = 0;
     }
-
-    void LateUpdate()
-    {
-        playerLocation = GameObject.FindWithTag("Player");
-    }
     
     void Update()
     {
+        playerLocation = GameObject.FindWithTag("Player");
         timeSinceCharge += Time.deltaTime;
 
         if (Vector3.Distance(this.gameObject.transform.position, playerLocation.transform.position) < 12)

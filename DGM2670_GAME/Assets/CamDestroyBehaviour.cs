@@ -6,15 +6,31 @@ public class CamDestroyBehaviour : MonoBehaviour
 {
     public Rigidbody piece;
     
+    public AudioSource zap;
+    
+    void Awake()
+    {
+        zap.volume = 0f;
+        zap = GetComponent<AudioSource>();
+    }
+    
     void Start()
     {
+        StartCoroutine(SetVolume());
         piece = GetComponent<Rigidbody>();
     }
     
-    void OnTriggerEnter()
+    IEnumerator SetVolume()
     {
-        if (GameObject.FindWithTag("Player"))
+        yield return new WaitForSeconds(2f);
+        zap.volume = 0.5f;
+    }
+    
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
         {
+            zap.Play();
             piece.isKinematic = false;
         }
     }
