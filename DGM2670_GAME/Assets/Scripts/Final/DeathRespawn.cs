@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class DeathRespawn : MonoBehaviour
 {
@@ -8,6 +10,9 @@ public class DeathRespawn : MonoBehaviour
     public GameObject respawnPos;
     public GameObject[] humanoids;
     public GameObject player;
+    public GameObject newBlock;
+    public GameObject newBlockPos;
+
 
     public AudioSource slimeSplat;
 
@@ -43,15 +48,26 @@ public class DeathRespawn : MonoBehaviour
             StartCoroutine(Respawn());
             lifeCounterBehaviour.life = lifeCounterBehaviour.life - 1;
         }
+
+        if (other.gameObject.tag == "Block")
+        {
+            StartCoroutine(SpawnBlock());
+        }
     }
 
     IEnumerator Respawn()
     {
-    
         player.transform.position = respawnPos.transform.position;
         player.SetActive(false);
 
         SpawnNewHumanoid();
+        yield return null;
+    }
+
+    IEnumerator SpawnBlock()
+    {
+        Debug.Log("Block hit");
+        Instantiate(newBlock, newBlockPos.transform.position, newBlockPos.transform.rotation);
         yield return null;
     }
 

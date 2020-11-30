@@ -110,10 +110,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/StaminaBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/MenuBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/lifeCounterBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Final/DeathRespawn.cs" />
         <option value="$PROJECT_DIR$/Assets/deathByCrab.cs" />
         <option value="$PROJECT_DIR$/Assets/CamDestroyBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/AIBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Final/DeathRespawn.cs" />
       </list>
     </option>
   </component>
@@ -237,6 +237,7 @@
       <workItem from="1605732638236" duration="2994000" />
       <workItem from="1605852168952" duration="279000" />
       <workItem from="1605891401317" duration="2753000" />
+      <workItem from="1606775385644" duration="1077000" />
     </task>
     <servers />
   </component>
