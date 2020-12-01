@@ -45,7 +45,7 @@ public class MenuBehaviour : MonoBehaviour
     public void GoToMenu()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("AnimSwitchScene");
+        SceneManager.LoadScene("Main_Menu");
     }
 
     public void ExitGame()

@@ -62,6 +62,7 @@
      <Compile Include="Assets\lifeCounterBehaviour.cs" />
      <Compile Include="Assets\LightSwitch.cs" />
      <Compile Include="Assets\LockWallBehaviour.cs" />
+     <Compile Include="Assets\MainMenuBehaviour.cs" />
      <Compile Include="Assets\MenuBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\AddValueBehaviour.cs" />
      <Compile Include="Assets\Scripts\Behaviours\BulletBehaviour.cs" />

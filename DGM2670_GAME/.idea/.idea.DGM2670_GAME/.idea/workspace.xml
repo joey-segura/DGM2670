@@ -37,6 +37,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataSO/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CamDestroyBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MainMenuBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../DGM1610/Project1/Assets/Scripts/gameScripts/movement3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataSO/StringListData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/AddValueBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -63,7 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Revised/MovementBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseEventBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataSO/DebugData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/MouseLocationBehaviour.cs" />
@@ -108,12 +108,13 @@
         <option value="$PROJECT_DIR$/Assets/VanishOnCollision.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/StaminaBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/MenuBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/lifeCounterBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/deathByCrab.cs" />
         <option value="$PROJECT_DIR$/Assets/CamDestroyBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/AIBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/DeathRespawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/MenuBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainMenuBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -237,7 +238,8 @@
       <workItem from="1605732638236" duration="2994000" />
       <workItem from="1605852168952" duration="279000" />
       <workItem from="1605891401317" duration="2753000" />
-      <workItem from="1606775385644" duration="1077000" />
+      <workItem from="1606775385644" duration="1146000" />
+      <workItem from="1606785736883" duration="556000" />
     </task>
     <servers />
   </component>
