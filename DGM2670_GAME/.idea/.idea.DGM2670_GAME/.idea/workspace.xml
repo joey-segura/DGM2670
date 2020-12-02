@@ -41,6 +41,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Final/AttachBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ANIMSTATETEST/PigAnimControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Final/AT_PlatformInteract.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BossTileBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/CamFollowBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Final/AT_TimerCountdownBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/LookAtBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -65,8 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/DataSO/DebugData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/MouseLocationBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/LookAtBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/LerpBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Revised/GroundCheckBehaviour.cs" />
@@ -116,6 +115,8 @@
         <option value="$PROJECT_DIR$/Assets/MenuBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/MainMenuBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/CamScoreBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/BossPlatTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/BossTileBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -242,6 +243,7 @@
       <workItem from="1606775385644" duration="1146000" />
       <workItem from="1606785736883" duration="556000" />
       <workItem from="1606794490850" duration="2368000" />
+      <workItem from="1606873361293" duration="3872000" />
     </task>
     <servers />
   </component>

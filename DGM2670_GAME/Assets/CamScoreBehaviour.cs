@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class CamScoreBehaviour : MonoBehaviour
 {
     public Text camText;
-    public int camAmt;
+    public static int camAmt;
     
     void Start()
     {
