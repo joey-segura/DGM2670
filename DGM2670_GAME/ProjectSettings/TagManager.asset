@@ -8,6 +8,8 @@ TagManager:
   - Moving Platform
   - Rolling Log
   - Block
+  - Jumper
+  - EndTrigger
   layers:
   - Default
   - TransparentFX

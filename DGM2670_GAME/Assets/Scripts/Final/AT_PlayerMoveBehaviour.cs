@@ -103,4 +103,18 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
             movement.y = jumpForce * 2f;
         }
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Jumper")
+        {
+            movement.y = jumpForce * 100f;
+        }
+
+        if (other.gameObject.tag == "EndTrigger")
+        {
+            Debug.Log("EndTriggered");
+            canMove = false;
+        }
+    }
 }
