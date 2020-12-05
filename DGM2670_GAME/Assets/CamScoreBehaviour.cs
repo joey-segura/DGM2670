@@ -16,8 +16,9 @@ public class CamScoreBehaviour : MonoBehaviour
         if (col.gameObject.tag == "Player")
         {
             camAmt = camAmt + 1;
-            camText.text = camAmt.ToString();
             Destroy(this.gameObject);
+            camText.text = camAmt.ToString();
+            
         }
     }
 }
