@@ -15,7 +15,7 @@ public class TriggerEventBehaviour : MonoBehaviour
 
    private IEnumerator OnTriggerEnter(Collider other)
    {
-      yield return waitObj;
       triggerEnterEvent.Invoke();
+      yield return null;
    }
 }

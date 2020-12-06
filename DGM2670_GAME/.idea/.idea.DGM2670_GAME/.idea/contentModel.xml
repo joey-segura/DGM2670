@@ -16,6 +16,7 @@
         <e p="CamDestroyBehaviour.cs" t="Include" />
         <e p="CamScoreBehaviour.cs" t="Include" />
         <e p="deathByCrab.cs" t="Include" />
+        <e p="DeleteOnceTriggered.cs" t="Include" />
         <e p="lifeCounterBehaviour.cs" t="Include" />
         <e p="LightSwitch.cs" t="Include" />
         <e p="LockWallBehaviour.cs" t="Include" />

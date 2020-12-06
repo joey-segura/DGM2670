@@ -56,6 +56,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/AddValueBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Revised/PlayerMoveBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DeleteOnceTriggered.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/UpdateTextBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/SpawnAssetBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataSO/DebugData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -66,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/LookAtBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/LerpBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Revised/GroundCheckBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataSO/IntData.cs" />
@@ -81,8 +81,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Revised/VelocityMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AIPatrol.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AIPatrol.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/TriggerEventBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DataSO/StringListData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_TubeSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/TimerCountdownBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RBInteractBehaviour.cs" />
@@ -117,6 +115,9 @@
         <option value="$PROJECT_DIR$/Assets/BossTileBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/CamScoreBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/TriggerEventBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/DeleteOnceTriggered.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DataSO/StringListData.cs" />
       </list>
     </option>
   </component>
@@ -247,6 +248,7 @@
       <workItem from="1606932390007" duration="324000" />
       <workItem from="1606933186042" duration="2676000" />
       <workItem from="1607033666756" duration="621000" />
+      <workItem from="1607283917520" duration="1609000" />
     </task>
     <servers />
   </component>

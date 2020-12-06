@@ -61,6 +61,7 @@
      <Compile Include="Assets\CamDestroyBehaviour.cs" />
      <Compile Include="Assets\CamScoreBehaviour.cs" />
      <Compile Include="Assets\deathByCrab.cs" />
+     <Compile Include="Assets\DeleteOnceTriggered.cs" />
      <Compile Include="Assets\lifeCounterBehaviour.cs" />
      <Compile Include="Assets\LightSwitch.cs" />
      <Compile Include="Assets\LockWallBehaviour.cs" />
