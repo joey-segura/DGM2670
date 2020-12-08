@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class lifeCounterBehaviour : MonoBehaviour
 {
@@ -9,11 +10,13 @@ public class lifeCounterBehaviour : MonoBehaviour
     
     public static int life;
 
+    public Text humansText;
+
     void Start()
     {
         life = 6;
     }
-    
+  
     void Update()
     {
         if (life < 1)
@@ -40,5 +43,10 @@ public class lifeCounterBehaviour : MonoBehaviour
         {
             Destroy(lives[5].gameObject);
         }
+    }
+
+    void LateUpdate()
+    {
+        humansText.text = life.ToString();
     }
 }
