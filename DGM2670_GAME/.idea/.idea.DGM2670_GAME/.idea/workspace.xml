@@ -108,7 +108,6 @@
         <option value="$PROJECT_DIR$/Assets/CamDestroyBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/AIBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/MenuBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/MainMenuBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/BossPlatTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/BossTileBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" />
@@ -117,6 +116,7 @@
         <option value="$PROJECT_DIR$/Assets/DeleteOnceTriggered.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataSO/StringListData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/DeathRespawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainMenuBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/lifeCounterBehaviour.cs" />
       </list>
     </option>
@@ -251,6 +251,7 @@
       <workItem from="1607283917520" duration="1609000" />
       <workItem from="1607372100506" duration="654000" />
       <workItem from="1607392002451" duration="2113000" />
+      <workItem from="1607484789523" duration="194000" />
     </task>
     <servers />
   </component>

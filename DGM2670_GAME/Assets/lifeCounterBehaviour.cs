@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class lifeCounterBehaviour : MonoBehaviour
@@ -22,6 +23,7 @@ public class lifeCounterBehaviour : MonoBehaviour
         if (life < 1)
         {
             Destroy(lives[0].gameObject);
+            SceneManager.LoadScene("Game_Over");
         }
         else if (life < 2)
         {

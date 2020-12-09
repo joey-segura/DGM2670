@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Spawn_Prototype.unity
     guid: 51d62280e847e024ca922b7405058673
+  - enabled: 1
+    path: Assets/Scenes/Game_Over.unity
+    guid: bd9406cfbe767474caa65057d0c6df76
   m_configObjects: {}
