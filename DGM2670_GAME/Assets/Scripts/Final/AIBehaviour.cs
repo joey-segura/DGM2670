@@ -2,13 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.XR.WSA.Input;
 
 [RequireComponent(typeof(NavMeshAgent))]
 [RequireComponent(typeof(Rigidbody))]
 public class AIBehaviour : MonoBehaviour
 {
-
     private NavMeshAgent agent;
     private Rigidbody agentRB;
     public GameObject playerLocation;

@@ -6,22 +6,6 @@
     <e p="C:\Users\otejp\Documents\GIT\DGM2670\DGM2670\DGM2670_GAME" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="AIBehaviour.cs" t="Include" />
-        <e p="ANIMSTATETEST" t="Include">
-          <e p="PigAnimControl.cs" t="Include" />
-        </e>
-        <e p="ArmControl.cs" t="Include" />
-        <e p="AT_LightFollowBehaviour.cs" t="Include" />
-        <e p="BossTileBehaviour.cs" t="Include" />
-        <e p="CamDestroyBehaviour.cs" t="Include" />
-        <e p="CamScoreBehaviour.cs" t="Include" />
-        <e p="deathByCrab.cs" t="Include" />
-        <e p="DeleteOnceTriggered.cs" t="Include" />
-        <e p="lifeCounterBehaviour.cs" t="Include" />
-        <e p="LightSwitch.cs" t="Include" />
-        <e p="LockWallBehaviour.cs" t="Include" />
-        <e p="MainMenuBehaviour.cs" t="Include" />
-        <e p="MenuBehaviour.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Behaviours" t="Include">
             <e p="AddValueBehaviour.cs" t="Include" />
@@ -51,15 +35,30 @@
             <e p="Vector3Data.cs" t="Include" />
           </e>
           <e p="Final" t="Include">
+            <e p="AIBehaviour.cs" t="Include" />
             <e p="AIPatrol.cs" t="Include" />
+            <e p="ArmControl.cs" t="Include" />
             <e p="AT_BinocularBehavoiur.cs" t="Include" />
             <e p="AT_CameraBehaviour.cs" t="Include" />
+            <e p="AT_LightFollowBehaviour.cs" t="Include" />
             <e p="AT_PlatformInteract.cs" t="Include" />
             <e p="AT_PlayerMoveBehaviour.cs" t="Include" />
             <e p="AT_TimerCountdownBehaviour.cs" t="Include" />
             <e p="AttachBehaviour.cs" t="Include" />
+            <e p="BossTileBehaviour.cs" t="Include" />
+            <e p="CamDestroyBehaviour.cs" t="Include" />
+            <e p="CamScoreBehaviour.cs" t="Include" />
+            <e p="deathByCrab.cs" t="Include" />
             <e p="DeathRespawn.cs" t="Include" />
+            <e p="DeleteOnceTriggered.cs" t="Include" />
             <e p="DestroyOnTrigger.cs" t="Include" />
+            <e p="lifeCounterBehaviour.cs" t="Include" />
+            <e p="LightSwitch.cs" t="Include" />
+            <e p="LockWallBehaviour.cs" t="Include" />
+            <e p="MainMenuBehaviour.cs" t="Include" />
+            <e p="MenuBehaviour.cs" t="Include" />
+            <e p="StepSpawnBehaviour.cs" t="Include" />
+            <e p="VanishOnCollision.cs" t="Include" />
           </e>
           <e p="gameManager.cs" t="Include" />
           <e p="MonoEventsBehaviour.cs" t="Include" />
@@ -72,7 +71,6 @@
             <e p="PlayerMoveBehaviour.cs" t="Include" />
           </e>
         </e>
-        <e p="StepSpawnBehaviour.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Resources" t="Include">
             <e p="LineBreaking Following Characters.txt" t="Include" />
@@ -98,7 +96,6 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
-        <e p="VanishOnCollision.cs" t="Include" />
       </e>
       <e p="DGM2670_GAME.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
