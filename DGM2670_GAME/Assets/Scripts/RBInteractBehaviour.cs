@@ -5,12 +5,9 @@ using UnityEngine;
 
 public class RBInteractBehaviour : MonoBehaviour
 {
-    private float pushStrength = 2f;
-    private float rotateStrength = 1f;
+    public float pushStrength = 20f;
 
-    public float refSpeed;
-
-    public AT_PlayerMoveBehaviour playerMoveBehaviour = null;
+    public AT_PlayerMoveBehaviour playerMoveBehaviour;
 
     void Awake()
     {
@@ -30,8 +27,11 @@ public class RBInteractBehaviour : MonoBehaviour
             return;
         }
 
-        Vector3 pushDirection = new Vector3(hit.moveDirection.x, hit.moveDirection.y, hit.moveDirection.z);
+        Vector3 pushDirection = new Vector3(hit.moveDirection.x, 0, hit.moveDirection.z);
         
-        rbody.velocity = pushDirection * playerMoveBehaviour.currentSpeed * 0.5f;
+        //rbody.velocity = pushDirection * playerMoveBehaviour.currentSpeed * 0.5f * pushStrength;
+        rbody.AddForce(pushDirection * pushStrength);
     }
+    
+    
 }

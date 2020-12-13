@@ -7,12 +7,10 @@ using Random = UnityEngine.Random;
 public class DeathRespawn : MonoBehaviour
 {
 
-    public GameObject respawnPos;
-    public GameObject[] humanoids;
-    public GameObject player;
+    [SerializeField] private Transform player;
+    [SerializeField] private Transform respawnPos;
     public GameObject newBlock;
     public GameObject newBlockPos;
-
 
     public AudioSource slimeSplat;
 
@@ -22,6 +20,7 @@ public class DeathRespawn : MonoBehaviour
     {
         slimeSplat.volume = 0f;
         slimeSplat = GetComponent<AudioSource>();
+        player = GameObject.Find("Humanoid_01").transform;
     }
 
     void Start()
@@ -29,23 +28,12 @@ public class DeathRespawn : MonoBehaviour
         StartCoroutine(SetVolume());
     }
 
-    IEnumerator SetVolume()
-    {
-        yield return new WaitForSeconds(2f);
-        slimeSplat.volume = 1f;
-    }
-    
-    void Update()
-    {
-        player = GameObject.FindWithTag("Player");
-    }
-    
     void OnTriggerEnter(Collider other)
     {
         slimeSplat.Play();
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.name == "Humanoid_01")
         {
-            StartCoroutine(Respawn());
+            player.transform.position = respawnPos.transform.position;
             lifeCounterBehaviour.life = lifeCounterBehaviour.life - 1;
         }
 
@@ -54,26 +42,16 @@ public class DeathRespawn : MonoBehaviour
             StartCoroutine(SpawnBlock());
         }
     }
-
-    IEnumerator Respawn()
+    
+    IEnumerator SetVolume()
     {
-        player.transform.position = respawnPos.transform.position;
-        player.SetActive(false);
-
-        SpawnNewHumanoid();
-        yield return null;
+        yield return new WaitForSeconds(2f);
+        slimeSplat.volume = 1f;
     }
 
     IEnumerator SpawnBlock()
     {
-        Debug.Log("Block hit");
         Instantiate(newBlock, newBlockPos.transform.position, newBlockPos.transform.rotation);
         yield return null;
-    }
-
-    void SpawnNewHumanoid()
-    {
-        randomInt = Random.Range(0, humanoids.Length);
-        Instantiate(humanoids[randomInt], player.transform.position, player.transform.rotation);
     }
 }
