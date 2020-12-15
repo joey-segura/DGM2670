@@ -12,6 +12,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Final/BossTileBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Final/AIPatrol.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Final/lifeCounterBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataSO/IntData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -55,7 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/AddValueBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataSO/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataSO/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MonoEventsBehaviour.cs" />
@@ -93,7 +93,6 @@
         <option value="$PROJECT_DIR$/Assets/MenuBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/BossPlatTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/BossTileBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/CamScoreBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/TriggerEventBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/DeleteOnceTriggered.cs" />
@@ -106,6 +105,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/DeathRespawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Final/deathByCrab.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RBInteractBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Final/AT_PlayerMoveBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Final/BossTileBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -242,6 +243,7 @@
       <workItem from="1607484789523" duration="194000" />
       <workItem from="1607567479703" duration="192000" />
       <workItem from="1607839609727" duration="6304000" />
+      <workItem from="1607993765670" duration="1552000" />
     </task>
     <servers />
   </component>

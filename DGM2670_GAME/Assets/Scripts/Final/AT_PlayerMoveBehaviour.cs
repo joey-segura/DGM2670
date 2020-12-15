@@ -96,12 +96,6 @@ public class AT_PlayerMoveBehaviour : MonoBehaviour
         {
             currentSpeed = defaultSpeed;
         }
-        
-        //FOR TESTING PURPOSES ONLY
-        if (Input.GetKeyDown(KeyCode.T) && cntrl.isGrounded)
-        {
-            movement.y = jumpForce * 2f;
-        }
     }
 
     void OnTriggerEnter(Collider other)
